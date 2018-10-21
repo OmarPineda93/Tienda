@@ -1,0 +1,72 @@
+@font-face {
+    font-family: kiedd;
+    src: url('./fonts/icomoon.ttf');
+}
+
+footer {
+    padding-left: 2%;
+    background-color: rgba(6, 128, 177, 0.89);
+    color: #FFFFFF;
+    border-radius: 8px 8px 0px 0px;
+    position: relative;
+    top: 5px;
+    height: 300px;
+
+}
+
+.center {
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px 0px 10px 0px;
+}
+
+footer a {
+    color: #FFFFFF;
+}
+
+footer a:visited {
+    color: #FFFFFF;
+}
+
+footer a:hover {
+    color: #1995D5;
+}
+
+#suscripcionEmail {
+    border-radius: 8px 0 0 8px;
+    font-size: 1em;
+    width: 200px;
+    /*position:absolute;
+    left:75%;*/
+}
+
+#suscripcionEnviar {
+    border-radius: 0 10px 10px 0;
+    font-size: 1.10em;
+    border: none;
+    text-decoration: none;
+    background-color: purple;
+    color: white;
+    /*position:absolute;
+    left:90%;*/
+}
+
+#piedf {
+    position: relative;
+    top: 3%;
+    width: 100%;
+    line-height: 30px;
+}
+
+#td2 {
+    width: 100%;
+}
+
+#line {
+    height: 15px;
+}

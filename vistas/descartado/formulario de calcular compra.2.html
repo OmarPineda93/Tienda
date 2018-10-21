@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <!-- codigo generado por el lansador o extencio de Visual estudio code -->
+        <!-- codificasion de caracteres -->
+        <meta charset="UTF-8"> 
+        <!-- Diseño web Responsive para html 5 -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- compativilida para internt exploresr y Edge -->
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!-- icono de la pagina -->
+        <link rel="shortcut icon" type="image/x-icon" href="./Img/icons/bup.jpg" />
+    <!-- titulo -->
+        <title>Libreria Dany</title>
+    <!-- Hojas de estilo -->
+        <link rel="stylesheet" type="text/css" href="./CSS/formulario.css">
+
+    <!-- Scritps Jquery-->
+
+</head>
+
+    <body>
+        
+        <a href="">Calcular</a>|
+        <a href="">Datos Personales</a>|
+        <a href="">Pago</a>|
+        <a href="">Confirmar Pedido</a>
+
+    <!-- Encabezado -->
+<div id="contenedor1" >   
+    <div id="contenedor2">
+        <h3>Si deseas modificar tu compra,<br> aun estas a tiempo</h3>
+    </div>
+</div>
+
+    <!-- Divicion, Menu y buscador -->
+        <div class="wrap" >
+        </div>
+        <div id="contenedor1" >   
+            <div id="contenedor4">
+                <h3>Introduzca sus datos personales</h3>
+                <form class="form_reg" action="guardar.php" method="POST">
+
+                    <input class="input" type="text" placeholder="&#128100;
+                    Nombre" required autofocus>
+
+                    <input class="input" type="text" placeholder="&#128100;
+                    Apellido" required autofocus>
+
+                    <input class="input" type="number" placeholder="&#128100;
+                    DUI" required autofocus>
+   
+                    <input class="input" type="email" placeholder="&#9993;
+                    Email" required>
+                   <input class="input" type="email" placeholder="&#9993;
+                    Confirmar Email" required>
+   
+                    <input class="input" type="tel" placeholder="&#128222;
+                    Telefono" required>
+   
+                    <input class="input" type="text" placeholder="&#8962;
+                            Direcci&oacute;n" required>
+
+   
+                    <h3>Introduza los datos de la tarjeta de credito/debito<br>donde se cargara el cobro</h3>
+                    <input class="input" type="number" placeholder="&#128100;
+                    Titular de la Tarjeta" required autofocus>
+                    <p>Tipo de tarjeta</p>
+                    <div >
+                    <input type="radio" name=""><img src="./Img/tarjetas/visa.png" style="width:60px; height: 40px;">|
+                    <input type="radio" name=""><img src="./Img/tarjetas/master.png"style="width:60px; height: 40px;">|
+                    <input type="radio" name=""><img src="./Img/tarjetas/electron.png"style="width:60px; height: 40px;">|
+                    <input type="radio" name=""><img src="./Img/tarjetas/american.png"style="width:60px; height: 40px;">|
+                    <input type="radio" name=""><img src="./Img/tarjetas/paypal.png"style="width:60px; height: 40px;">
+                    </div>
+                    <div style="width:90%; position: left;">
+                    <input class="input" type="number" placeholder="&#128100;
+                    Numero de Tarjeta" required autofocus style="width:60%;">
+                    <input class="input" type="number" style="width:30%;" placeholder="&#128100;
+                    CVC" required autofocus  >
+                    </div>
+
+                    <div class="btn_form">
+                        <input class="btn_submit" type="submit" value="Calcular Total">
+                        </div>
+                </form> 
+            </div>
+        </div>
+    <!-- Slider -->
+      
+    </body>
+    
+</html>

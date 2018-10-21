@@ -1,0 +1,57 @@
+.mySlides {
+	display: none;
+}
+
+.container {
+	height: 450px;
+	padding-bottom: 10px;
+	user-select: none;
+
+}
+
+.container:hover>.next {
+	display: block;
+}
+
+.container:hover>.prev {
+	display: block;
+}
+
+
+.next {
+	position: relative;
+	top: -250px;
+	z-index: 99;
+	transition: .45s;
+	cursor: pointer;
+	left: 92%;
+	width: 40px;
+	height: 40px;
+	opacity: 0.5;
+	display: none;
+	border-radius: 5px;
+	outline: none;
+}
+
+.prev {
+
+
+	position: relative;
+	top: -250px;
+	z-index: 99;
+	transition: .45s;
+	cursor: pointer;
+	left: 3%;
+	width: 40px;
+	height: 40px;
+	opacity: 0.5;
+	display: none;
+	border-radius: 5px;
+	outline: none;
+}
+
+.prev:hover,
+.next:hover {
+	transition: .3s;
+	color: #ffffff;
+}

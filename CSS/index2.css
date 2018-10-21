@@ -1,0 +1,611 @@
+/*-------------------------
+	Reinicios
+--------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*-------------------------
+    Encabezado
+--------------------------*/
+
+header {
+    font-family: Comic Sans MS, arial, verdana;
+    font-size: 25px;
+    /* height: 120px;*/
+
+}
+
+body {
+    font-family: Comic Sans MS, arial, verdana;
+}
+
+#titulo {
+    position: relative;
+    left: 10px;
+    width: 90%;
+}
+
+#navegacion {
+    /*
+        font-family: Comic Sans MS, arial, verdana;
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    left: 600px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -ms-user-select: none;
+    */
+    font-family: Comic Sans MS, arial, verdana;
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    left: 755px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -ms-user-select: none;
+}
+
+#navegacion2 {
+    /*
+        font-family: Comic Sans MS, arial, verdana;
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    left: 665px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -ms-user-select: none;
+    */
+    font-family: Comic Sans MS, arial, verdana;
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    left: 820px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -ms-user-select: none;
+}
+
+#carrito {
+    /*
+    position: absolute;
+    top: 0px;
+    left: 955px;
+    width: 130px;
+    height: 150px;
+    font-family: Comic Sans MS, arial, verdana;
+    font-size: 20px;
+    background-color: rgb(255, 114, 33);
+    border-radius: 0px 0px 5px 5px;
+    text-align: center;
+    */
+    position: absolute;
+    top: 0px;
+    left: 1115px;
+    width: 130px;
+    height: 150px;
+    font-family: Comic Sans MS, arial, verdana;
+    font-size: 20px;
+    background-color: rgb(255, 114, 33);
+    border-radius: 0px 0px 5px 5px;
+    text-align: center;
+}
+
+
+#carrito img {
+    position: relative;
+    top: 10px;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+#carrito p {
+    position: relative;
+    top: 5px;
+}
+
+
+#carrito2 {
+    /*
+        position: absolute;
+    top: 0px;
+    left: 944px;
+    width: 140px;
+    height: 70px;
+    font-family: Comic Sans MS, arial, verdana;
+    font-size: 20px;
+    background-color: rgb(255, 114, 33);
+    border-radius: 0px 0px 5px 5px;
+    text-align: center;*/
+    position: absolute;
+    top: 0px;
+    left: 1100px;
+    width: 140px;
+    height: 70px;
+    font-family: Comic Sans MS, arial, verdana;
+    font-size: 20px;
+    background-color: rgb(255, 114, 33);
+    border-radius: 0px 0px 5px 5px;
+    text-align: center;
+}
+
+
+#carrito2 #car {
+    position: relative;
+    top: 10%;
+    left: 3%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+#carrito2 #total {
+    position: relative;
+    top: 0%;
+    left: 10%;
+}
+
+#carrito2>#total,
+#car {
+    float: left;
+}
+
+#user {
+    position: absolute;
+    top: 0px;
+    left: 86.24%;
+    width: 13.73%;
+    height: 70px;
+    font-family: Comic Sans MS, arial, verdana;
+    font-size: 20px;
+    background-color: rgb(238, 217, 204);
+    border-radius: 0px 0px 0px 5px;
+    text-align: center;
+    opacity: 0.9;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.29);
+    display: none;
+}
+
+
+
+#user #imguser {
+    position: relative;
+    top: 10%;
+    left: 3%;
+    max-width: 100%;
+    width: 30%;
+    height: auto;
+
+
+    border-radius: 100px;
+    margin-bottom: 0px;
+    box-shadow: 0 8px 6px -6px #555;
+    transition: transform 1s;
+}
+
+#user #nameuser {
+    position: relative;
+    top: 3%;
+    left: 5%;
+    line-height: 20px;
+}
+
+#user>#nameuser,
+#imguser {
+    float: left;
+}
+
+/*----------------------------
+	The Navigation Menu
+-----------------------------*/
+
+
+#colorNav>ul {
+
+    height: auto;
+    margin: 0 auto;
+}
+
+#colorNav>ul>li {
+    /* will style only the top level li */
+    list-style: none;
+
+    box-shadow: 0 0 6px rgba(0, 0, 0, .16), 0 6px 12px rgba(0, 0, 0, .32);
+    display: inline-block;
+    line-height: 1;
+    margin: 1px;
+    border-radius: 8px;
+    position: relative;
+
+}
+
+#colorNav>ul>li>a {
+    color: inherit;
+
+}
+
+#colorNav li ul {
+    position: absolute;
+    list-style: none;
+    text-align: center;
+    width: 150px;
+    left: 50%;
+    margin-left: -80px;
+    top: 40px;
+    font: bold 12px 'Open Sans Condensed', sans-serif;
+
+    max-height: 0px;
+    overflow: hidden;
+
+    -webkit-transition: max-height 0.4s linear;
+    -moz-transition: max-height 0.4s linear;
+    transition: max-height 0.4s linear;
+}
+
+#colorNav li ul li {
+    background-color: #313131;
+
+}
+
+#colorNav li ul li a {
+    padding: 10px;
+    color: #fff !important;
+    text-decoration: none !important;
+    display: block;
+
+}
+
+#colorNav li ul li:nth-child(odd) {
+    /* zebra stripes */
+    background-color: #363636;
+
+}
+
+#colorNav li ul li:hover {
+    background-color: #444;
+}
+
+#colorNav li ul li:first-child {
+    border-radius: 3px 3px 0 0;
+    margin-top: 25px;
+    position: relative;
+}
+
+#colorNav li ul li:first-child:before {
+    /* the pointer tip */
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    border: 5px solid transparent;
+    border-bottom-color: #313131;
+    left: 50%;
+    top: -10px;
+    margin-left: -5px;
+}
+
+#colorNav li ul li:last-child {
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+
+}
+
+
+#colorNav li:hover ul {
+    max-height: 200px;
+
+}
+
+/*----------------------------
+	Color Themes
+-----------------------------*/
+#colorNav li.red {
+    background-color: #ea5080;
+    color: #aa2a52;
+    width: 150px;
+    height: 50px;
+
+    text-align: center;
+}
+
+#colorNav li.blue {
+    background-color: #53bfe2;
+    color: #2884a2;
+    width: 150px;
+    height: 50px;
+
+    text-align: center;
+}
+
+#colorNav li.purple {
+    background-color: #df6dc2;
+    color: #9f3c85;
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#colorNav li.red p {
+    position: absolute;
+    top: 12px;
+    left: 18px;
+    color: white;
+    cursor: pointer;
+}
+
+#colorNav li.blue p {
+    position: absolute;
+    top: 12px;
+    left: 14px;
+    color: white;
+    cursor: pointer;
+}
+
+#colorNav li.purple p {
+    position: absolute;
+    top: 12px;
+    left: 27px;
+    color: white;
+    cursor: pointer;
+}
+
+#colorNav li.red:active {
+    position: relative;
+    top: 1px;
+}
+
+#colorNav li.blue:active {
+    position: relative;
+    top: 1px;
+}
+
+/*-------------------------
+    Divicion y busqueda
+--------------------------*/
+.search {
+    position: absolute;
+}
+
+.searchTerm {
+    position: relative;
+    top: 2px;
+    left: 70px;
+    float: left;
+    width: 200px;
+    border: 4px solid #00AAED;
+    padding: 5px;
+    height: 20px;
+    border-radius: 8px;
+    outline: none;
+    color: #9DBFAF;
+}
+
+.searchTerm:focus {
+    color: rgb(0, 0, 0);
+}
+
+.searchButton {
+    position: relative;
+    top: 3px;
+    left: 70px;
+    width: 37px;
+    height: 30px;
+    border: 0px solid #00AAED;
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    background-image: url("../Img/Buscador.png");
+    background-repeat: no-repeat;
+    background-position: -5px;
+    border-radius: 8px;
+    outline: none;
+
+}
+
+.wrap {
+    position: inherit;
+    height: 45px;
+    background: rgb(111, 169, 236);
+}
+
+
+/*----------------------------
+	The Navigation Menu
+-----------------------------*/
+
+
+#colorNav2>ul {
+
+    height: auto;
+    margin: 0 auto;
+}
+
+#colorNav2>ul>li {
+    /* will style only the top level li */
+    list-style: none;
+
+    box-shadow: 0 0 6px rgba(0, 0, 0, .16), 0 6px 12px rgba(0, 0, 0, .32);
+    display: inline-block;
+    line-height: 1;
+    margin: 1px;
+    border-radius: 8px;
+    position: relative;
+
+}
+
+#colorNav2>ul>li>a {
+    color: inherit;
+
+}
+
+#colorNav2 li ul {
+    position: absolute;
+    list-style: none;
+    text-align: center;
+    width: 150px;
+    left: 50%;
+    margin-left: -80px;
+    top: 40px;
+    font: bold 12px 'Open Sans Condensed', sans-serif;
+
+    max-height: 0px;
+    overflow: hidden;
+
+    -webkit-transition: max-height 0.4s linear;
+    -moz-transition: max-height 0.4s linear;
+    transition: max-height 0.4s linear;
+}
+
+#colorNav2 li ul li {
+    background-color: #313131;
+
+}
+
+#colorNav2 li ul li a {
+    padding: 10px;
+    color: #fff !important;
+    text-decoration: none !important;
+    display: block;
+
+}
+
+#colorNav2 li ul li:nth-child(odd) {
+    /* zebra stripes */
+    background-color: #363636;
+
+}
+
+#colorNav2 li ul li:hover {
+    background-color: #444;
+}
+
+#colorNav2 li ul li:first-child {
+    border-radius: 3px 3px 0 0;
+    margin-top: 25px;
+    position: relative;
+}
+
+#colorNav2 li ul li:first-child:before {
+    /* the pointer tip */
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    border: 5px solid transparent;
+    border-bottom-color: #313131;
+    left: 50%;
+    top: -10px;
+    margin-left: -5px;
+}
+
+#colorNav2 li ul li:last-child {
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+
+}
+
+
+#colorNav2 li:hover ul {
+    max-height: 200px;
+
+}
+
+/*----------------------------
+	Color Themes
+-----------------------------*/
+#colorNav2 li.gren2 {
+    background-color: #179b29;
+    color: #04610c;
+    width: 80px;
+    height: 50px;
+
+    text-align: center;
+}
+
+
+#colorNav2 li.red2 {
+    background-color: #ea5080;
+    color: #aa2a52;
+    width: 130px;
+    height: 50px;
+
+    text-align: center;
+}
+
+#colorNav2 li.blue2 {
+    background-color: #53bfe2;
+    color: #2884a2;
+    width: 130px;
+    height: 50px;
+
+    text-align: center;
+}
+
+#colorNav2 li.purple2 {
+    background-color: #df6dc2;
+    color: #9f3c85;
+    width: 110px;
+    height: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#colorNav2 li.red2 p {
+    position: absolute;
+    top: 12px;
+    left: 7px;
+    color: white;
+    cursor: pointer;
+}
+
+#colorNav2 li.blue2 p {
+    position: absolute;
+    top: 12px;
+    left: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+#colorNav2 li.gren2 p {
+    position: absolute;
+    top: 12px;
+    left: 14px;
+    color: white;
+    cursor: pointer;
+}
+
+#colorNav2 li.purple2 p {
+    position: absolute;
+    top: 12px;
+    left: 27px;
+    color: white;
+    cursor: pointer;
+}
+
+#colorNav2 li.red2:active {
+    position: relative;
+    top: 1px;
+}
+
+#colorNav2 li.blue2:active {
+    position: relative;
+    top: 1px;
+}
+
+#colorNav2 li.gren2:active {
+    position: relative;
+    top: 1px;
+}

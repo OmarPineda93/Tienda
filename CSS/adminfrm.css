@@ -1,0 +1,308 @@
+#adminfrm1 {
+
+    top: 20px;
+    width: 100%;
+    height: 354px;
+    background-color: gray;
+    border-radius: 4;
+    display: none;
+}
+
+
+#adminfrm1:after {
+    border: solid 10px transparent;
+    border-bottom-color: gray;
+    /* igual al color de fondo */
+    border-top: 0;
+    bottom: 10px;
+    /* igual al borde + el padding-bottom de la definición anterior */
+    left: -85px;
+    content: "";
+    display: block;
+    height: 0;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    top: -49%;
+    width: 0;
+}
+
+
+#adminfrm2 {
+
+    top: 20px;
+    width: 100%;
+    height: 354px;
+    background-color: gray;
+    border-radius: 4;
+    display: none;
+}
+
+#adminfrm2:after {
+    border: solid 10px transparent;
+    border-bottom-color: gray;
+    /* igual al color de fondo */
+    border-top: 0;
+    bottom: 10px;
+    /* igual al borde + el padding-bottom de la definición anterior */
+    left: 95px;
+    content: "";
+    display: block;
+    height: 0;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    top: -49%;
+    width: 0;
+}
+
+#adminfrm3 {
+
+    top: 20px;
+    width: 100%;
+    height: 354px;
+    background-color: gray;
+    border-radius: 4;
+    display: none;
+}
+
+#adminfrm3:after {
+    border: solid 10px transparent;
+    border-bottom-color: gray;
+    /* igual al color de fondo */
+    border-top: 0;
+    bottom: 10px;
+    /* igual al borde + el padding-bottom de la definición anterior */
+    left: 290px;
+    content: "";
+    display: block;
+    height: 0;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 0;
+    top: -63%;
+}
+
+#base {
+
+    height: 74px;
+}
+
+#base #colorNav .red {
+    height: 50px;
+    text-align: center;
+    font-family: Comic Sans MS, arial, verdana;
+    background: #7f8c8d;
+    color: #fff;
+    display: inline-block;
+    font-size: 1.25em;
+
+    text-align: center;
+    width: 200px;
+    text-decoration: none;
+    box-shadow: 0px 3px 10px #373c3c;
+
+    border-radius: 4px;
+    border: none;
+    outline: none;
+
+    cursor: pointer;
+
+}
+
+#base #colorNav .red:hover {
+    background: #eb857e;
+    border: solid #eb857e;
+}
+
+#base #colorNav,
+.red:active {
+    position: relative;
+    top: 1px;
+
+}
+
+#base #colorNav .blue {
+    background-color: #53bfe2;
+    height: 50px;
+    text-align: center;
+    font-family: Comic Sans MS, arial, verdana;
+    background: #7f8c8d;
+    color: #fff;
+    display: inline-block;
+    font-size: 1.25em;
+    text-align: center;
+    width: 200px;
+    text-decoration: none;
+    box-shadow: 0px 3px 10px #373c3c;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+
+    cursor: pointer;
+
+}
+
+#base #colorNav .blue:hover {
+    background: #53bfe2;
+    border: solid #53bfe2;
+}
+
+#base #colorNav .blue:active {
+    position: relative;
+    top: 1px;
+}
+
+#base #colorNav .purple {
+    background-color: #53bfe2;
+    height: 50px;
+    text-align: center;
+    font-family: Comic Sans MS, arial, verdana;
+    background: #7f8c8d;
+    color: #fff;
+    display: inline-block;
+    font-size: 1.25em;
+
+    text-align: center;
+    width: 200px;
+    text-decoration: none;
+    box-shadow: 0px 3px 10px #373c3c;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#base #colorNav .purple:hover {
+    background: #df6dc2;
+    border: solid #df6dc2;
+}
+
+#base #colorNav .purple:active {
+    position: relative;
+    top: 1px;
+}
+
+#base #navegacion4 {
+    font-family: Comic Sans MS, arial, verdana;
+    font-size: 20px;
+    position: absolute;
+    top: 260px;
+    left: 630px;
+    display: none;
+}
+
+#factura #marcas {
+    background-color: rgb(19, 57, 71);
+
+    width: 30%;
+    height: 700px;
+
+    position: relative;
+    top: -10px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+#tbtnadmidn {
+    position: relative;
+    top: 10%;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#tbtnadmidn p {
+    color: #ffff;
+    font-size: 20px;
+}
+
+
+#tbtnadmidn #btnprod {
+    background-image: url("../Img/Producto.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 140px;
+    width: 35%;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 2px 2px 18px 1px rgba(238, 234, 234, 0.29);
+    outline: none;
+    cursor: pointer;
+}
+
+
+#tbtnadmidn #btnprod :active {
+    position: relative;
+    top: 1px;
+}
+
+
+#tbtnadmidn #btnprod-1 {
+    background-image: url("../Img/camión-80.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 140px;
+    width: 35%;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 2px 2px 18px 1px rgba(238, 234, 234, 0.29);
+    outline: none;
+    cursor: pointer;
+}
+
+#tbtnadmidn #btnprod-2 {
+    background-image: url("../Img/clientes.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 140px;
+    width: 35%;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 2px 2px 18px 1px rgba(238, 234, 234, 0.29);
+    outline: none;
+    cursor: pointer;
+}
+
+#factura #facturat {
+    background-color: rgb(19, 57, 71);
+    height: 54px;
+    width: 70%;
+
+}
+
+
+#factura #contfac {
+    height: 700px;
+}
+
+#adminfrm4 {
+    display: none;
+}
+
+#adminfrm5 {
+    display: none;
+}
+
+#adminfrm6 {
+    display: none;
+}
+
+
+#conten>#textp,
+#logo1 {
+    float: left;
+}
+
+#logo {
+    height: 250px;
+
+}
+
+#textp {
+    position: relative;
+    top: 100px;
+    left: -20px;
+    text-align: right;
+    font-size: 60px;
+    font-weight: bold;
+    -webkit-text-fill-color: #009fff;
+    -webkit-text-stroke-color: #4E6D7f;
+    -webkit-text-stroke-width: 1.5px;
+}

@@ -1,0 +1,1359 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <!-- codigo generado por el lansador o extencio de Visual estudio code -->
+    <!-- codificasion de caracteres -->
+    <meta charset="UTF-8">
+    <!-- Diseño web Responsive para html 5 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- compativilida para internt exploresr y Edge -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- icono de la pagina -->
+    <link rel="shortcut icon" type="image/x-icon" href="./Img/icons/bup.jpg" />
+    <!-- titulo -->
+    <title>Libreria Dany</title>
+    <!-- Hojas de estilo -->
+    <link rel="stylesheet" type="text/css" href="./CSS/index.css">
+    <link rel="stylesheet" type="text/css" href="./CSS/css-foot.css">
+    <link rel="stylesheet" type="text/css" href="./CSS/table.css">
+    <link rel="stylesheet" type="text/css" href="./CSS/slider.css">
+    <link rel="stylesheet" type="text/css" href="./CSS/menu.css">
+    <!-- Scritps Jquery para menu -->
+
+
+    <script>
+        var clic = 1;
+            
+            function mostrarmenu() {
+            
+                if(clic==1){
+            
+                    document.getElementById("menu").style.display = "block";  
+                    document.getElementById("contenedor-menu").style.height = "500px";
+                    clic = clic + 1;
+            
+                    } else{
+                 
+                        document.getElementById("menu").style.display = "none";       
+                        document.getElementById("acc-close").checked = true;
+                        document.getElementById("contenedor-menu").style.height = "54px";
+                   
+                     clic = 1;
+            
+                    } 
+            }
+            </script>
+</head>
+
+<body>
+    <!-- Encabezado -->
+    <header>
+
+        <div id="titulo">
+            <h2>Libreria y Papeleria <br>
+                <span style="margin-left:3em"> Dany</span>
+            </h2>
+        </div>
+
+        <div id="navegacion">
+            <nav id="colorNav">
+                <ul id="ulu">
+                    <li class="red">
+                        <p href="#">Información</p>
+                        <ul>
+                        </ul>
+                    </li>
+                    <li class="blue">
+                        <p href="#">Contáctanos</p>
+                    </li>
+                    <li class="purple">
+                        <p href="#">Sesión</p>
+                        <ul>
+                            <li><a href="#">Iniciar Sesión</a></li>
+                            <li><a href="#">Registrate</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <a href="./Vistas/Carrito.html">
+            <div id="carrito">
+                <a href="./Vistas/Carrito.html">
+                    <img src="./Img/carrito2.png">
+                </a>
+                <p>Carrito <br> $00.00</p>
+            </div>
+        </a>
+
+    </header>
+
+    <!-- Divicion, Menu y buscador -->
+    <div class="wrap">
+
+        <div class="search">
+            <input type="text" class="searchTerm" placeholder="Buscar">
+            <input type="button" class="searchButton" placeholder="Buscar">
+            <i class="fa fa-search"></i>
+        </div>
+
+        <div class="contenedor-menu" id="contenedor-menu">
+
+            <nav class="accordion arrows">
+
+                <header class="box">
+                    <input type="button" name="accordion" id="btn" onclick="mostrarmenu()" />
+                    <label class="box-title1" for="btn"> <img align="left" style=" position: relative; top: 6px; left: 10px;"
+                            src="./Img/menu.png"> Categorias</label>
+
+                </header>
+                <div id="menu">
+                    <input type="radio" name="accordion" id="cb1" />
+
+                    <section class="box">
+                        <label class="box-title" for="cb1">Escritura</label>
+                        <label class="box-close" for="acc-close"></label>
+                        <div class="box-content">
+
+                            <table>
+
+                                <tr>
+                                    <td>
+                                        <a href="#">
+                                            Cuadernos y libretas
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div id="sep"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#">
+                                            lapices y Boligrafos
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div id="sep"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#">
+                                            Extras
+                                        </a>
+                                    </td>
+                                </tr>
+
+                            </table>
+
+                        </div>
+                    </section>
+
+                    <input type="radio" name="accordion" id="cb2" />
+                    <section class="box">
+                        <label class="box-title" for="cb2">Manualidaes</label>
+                        <label class="box-close" for="acc-close"></label>
+                        <div class="box-content">
+
+                            <table>
+                                <tr>
+                                    <td>
+                                        <a href="./vistas/Papeleria.html">
+                                            Papeleria
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div id="sep"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Foamy
+                                    </td>
+                                </tr>
+                                <tr>
+                                <td>
+                                    <div id="sep"></div>
+                                </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Material Decorativo
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                <td>
+                                    <div id="sep"></div>
+                                </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Coloreo
+                                    </td>
+                                </tr>
+                                <tr>
+                                <td>
+                                    <div id="sep"></div>
+                                </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Pegamentos
+                                    </td>
+
+                                </tr>
+                                <tr>
+                                <td>
+                                    <div id="sep"></div>
+                                </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Extras
+                                    </td>
+                                </tr>
+                            </table>
+
+                        </div>
+                    </section>
+
+                    <input type="radio" name="accordion" id="cb3" />
+                    <section class="box">
+                        <label class="box-title" for="cb3">Libros</label>
+                        <label class="box-close" for="acc-close"></label>
+                        <div class="box-content">
+
+                            <table>
+                                <tr>
+                                    <td>
+                                        <a href="#">
+                                            Libros de Texto
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div id="sep"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="./vistas/libros.html"> Obras literias</a>
+
+                                    </td>
+                                </tr>
+                            </table>
+
+                        </div>
+                    </section>
+
+                    <input type="radio" name="accordion" id="cb4" />
+                    <section class="box">
+                        <label class="box-title" for="cb4">Item 3</label>
+                        <label class="box-close" for="acc-close"></label>
+                        <div class="box-content">
+
+                            <table>
+                                <tr>
+                                    <td>
+                                        <a href="#">
+                                            Cuadernos
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div id="sep"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Libretas
+                                    </td>
+                                </tr>
+                            </table>
+
+                        </div>
+                    </section>
+
+                    <input type="radio" name="accordion" id="cb5" />
+                    <section class="box">
+                        <label class="box-title" for="cb5">Item 3</label>
+                        <label class="box-close" for="acc-close"></label>
+                        <div class="box-content">
+
+                            <table>
+                                <tr>
+                                    <td>
+                                        <a href="#">
+                                            Cuadernos
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div style=" width: 100% ; height: 1px ;background:rgb(128, 133, 138)"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Libretas
+                                    </td>
+                                </tr>
+                            </table>
+
+                        </div>
+                    </section>
+                    <input type="radio" name="accordion" id="acc-close" />
+                </div>
+
+            </nav>
+        </div>
+
+    </div>
+
+    <!-- Slider -->
+    <div class="container">
+
+        <img class="mySlides" src="http://elucabista.com/wp-content/uploads/2018/07/utiles.jpg " style="width:100%; height: 450px;">
+        <img class="mySlides" src="https://i0.wp.com/www.eleco.com.ar/wp-content/uploads/2018/02/utiles-escolares2.jpg?fit=635%2C357&ssl=1"
+            style="width:100%; height: 450px;">
+        <img class="mySlides" src="https://png.pngtree.com/element_origin_min_pic/16/08/12/2057adc2396afdf.jpg" style="width:100%; height: 450px;">
+        <img class="mySlides" src="https://static9.depositphotos.com/1000604/1216/i/950/depositphotos_12166092-stock-photo-primary-school-stationery.jpg"
+            style="width:100%; height: 450px;">
+
+        <button class="prev" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="next" onclick="plusDivs(1)">&#10095;</button>
+    </div>
+    <script src="./JS/slider.js"></script>
+
+    <!-- Divicion -->
+    <div style=" top: 10px;   left: 0px; width: 100% ; height: 1px ;background:rgb(128, 133, 138)"></div>
+
+    <!-- Tabla de productos -->
+    <div id="manta" style=" position: relative; top: 20px;   width: 100% ; ">
+
+        <div style=" position: relative;">
+
+            <TABLE align="center">
+
+                <CAPTION>
+                    <center>
+                        <font size="5" face="Comic Sans MS,arial,verdana">Elije tu producto</font>
+                    </center>
+                </CAPTION>
+
+                <tr>
+
+                    <td>
+
+                        <div class="profile">
+
+                            <img SRC=" ./Img/regla.jpg" />
+
+                            <h1>
+                                Regla 30 cm.
+                            </h1>
+
+                            <div class="bar">
+
+                                <span class="one"></span><span class="two"></span><span class="three"></span><span
+                                    class="four"></span><span class="five"></span>
+
+                            </div>
+
+                            <h2>
+                                $0.50
+                            </h2>
+
+                            <input type="button" class="btn" value="Añadir al Carrito">
+
+                        </div>
+
+                    </td>
+
+                    <td>
+
+                        <div class="profile">
+
+                            <img SRC=" ./Img/borrador.jpg" />
+
+                            <h1>
+                                Borrador
+                            </h1>
+
+                            <div class="bar">
+
+                                <span class="one"></span><span class="two"></span><span class="three"></span><span
+                                    class="four"></span><span class="five"></span>
+
+                            </div>
+
+                            <h2>
+                                $0.25
+                            </h2>
+
+                            <input type="button" class="btn" value="Añadir al Carrito">
+
+                        </div>
+
+                    </td>
+
+                    <td>
+
+                        <div class="profile">
+
+                            <img SRC=" ./Img/lapicero.jpg" />
+
+                            <h1>
+                                Lapicero
+                            </h1>
+
+                            <div class="bar">
+
+                                <span class="one"></span><span class="two"></span><span class="three"></span><span
+                                    class="four"></span><span class="five"></span>
+
+                            </div>
+
+                            <h2>
+                                $0.25
+                            </h2>
+
+                            <input type="button" class="btn" value="Añadir al Carrito">
+
+                        </div>
+
+                    </td>
+
+                    <td>
+
+                        <div class="profile">
+
+                            <img SRC=" ./Img/sacapuntas.jpg" />
+
+                            <h1>
+                                Sacapunta metalica
+                            </h1>
+
+                            <div class="bar">
+
+                                <span class="one"></span><span class="two"></span><span class="three"></span><span
+                                    class="four"></span><span class="five"></span>
+
+                            </div>
+
+                            <h2>
+                                $0.25
+                            </h2>
+
+                            <input type="button" class="btn" value="Añadir al Carrito">
+
+                        </div>
+
+                    </td>
+
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <div style=" width: 100% ; height: 1px ;background:rgb(128, 133, 138)"></div>
+                    </td>
+                </tr>
+                <tr>
+
+                    <td>
+
+                        <div class="profile">
+
+                            <img SRC=" ./Img/tijeras.jpg" />
+
+                            <h1>
+                                Tijera escolar
+                            </h1>
+
+                            <div class="bar">
+
+                                <span class="one"></span><span class="two"></span><span class="three"></span><span
+                                    class="four"></span><span class="five"></span>
+
+                            </div>
+
+                            <h2>
+                                $1.00
+                            </h2>
+
+                            <input type="button" class="btn" value="Añadir al Carrito">
+
+                        </div>
+
+                    </td>
+
+                    <td>
+
+                        <div class="profile">
+
+                            <img SRC=" ./Img/cartulina.jpg" />
+
+                            <h1>
+                                Paginas de colores
+                            </h1>
+
+                            <div class="bar">
+
+                                <span class="one"></span><span class="two"></span><span class="three"></span><span
+                                    class="four"></span><span class="five"></span>
+
+                            </div>
+
+                            <h2>
+                                $0.25
+                            </h2>
+
+                            <input type="button" class="btn" value="Añadir al Carrito">
+
+                        </div>
+
+                    </td>
+
+                    <td>
+
+                        <div class="profile">
+
+                            <img SRC=" ./Img/cartulina.png" />
+
+                            <h1>
+                                Cartulinas
+                            </h1>
+
+                            <div class="bar">
+
+                                <span class="one"></span><span class="two"></span><span class="three"></span><span
+                                    class="four"></span><span class="five"></span>
+
+                            </div>
+
+                            <h2>
+                                $0.75
+                            </h2>
+
+                            <input type="button" class="btn" value="Añadir al Carrito">
+
+                        </div>
+
+                    </td>
+
+                    <td>
+
+                        <div class="profile">
+
+                            <img SRC=" ./Img/Crespon.jpg" />
+
+                            <h1>
+                                Papel crespon
+                            </h1>
+
+                            <div class="bar">
+
+                                <span class="one"></span><span class="two"></span><span class="three"></span><span
+                                    class="four"></span><span class="five"></span>
+
+                            </div>
+
+                            <h2>
+                                $0.50
+                            </h2>
+
+                            <input type="button" class="btn" value="Añadir al Carrito">
+
+                        </div>
+
+                    </td>
+
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <div style=" width: 100% ; height: 1px ;background:rgb(128, 133, 138)"></div>
+                    </td>
+                </tr>
+                <tr>
+
+                    <td>
+
+                        <div class="profile">
+
+                            <img SRC=" ./Img/lustre.jpg" />
+
+                            <h1>
+                                Papel lustre pliego
+                            </h1>
+
+                            <div class="bar">
+
+                                <span class="one"></span><span class="two"></span><span class="three"></span><span
+                                    class="four"></span><span class="five"></span>
+
+                            </div>
+
+                            <h2>
+                                $0.75
+                            </h2>
+
+                            <input type="button" class="btn" value="Añadir al Carrito">
+
+                        </div>
+
+                    </td>
+                    <td>
+
+                        <div class="profile">
+
+                            <img SRC=" ./Img/manualidades04.jpg" />
+
+                            <h1>
+                                Papel foami
+                            </h1>
+
+                            <div class="bar">
+
+                                <span class="one"></span><span class="two"></span><span class="three"></span><span
+                                    class="four"></span><span class="five"></span>
+
+                            </div>
+
+                            <h2>
+                                $0.50
+                            </h2>
+
+                            <input type="button" class="btn" value="Añadir al Carrito">
+
+                        </div>
+
+                    </td>
+                    <td>
+
+                        <div class="profile">
+
+                            <img SRC=" ./Img/papel.jpg" />
+
+                            <h1>
+                                Regma papel bond
+                            </h1>
+
+                            <div class="bar">
+
+                                <span class="one"></span><span class="two"></span><span class="three"></span><span
+                                    class="four"></span><span class="five"></span>
+
+                            </div>
+
+                            <h2>
+                                $15.00
+                            </h2>
+
+                            <input type="button" class="btn" value="Añadir al Carrito">
+
+                        </div>
+
+                    </td>
+                    <td>
+
+                        <div class="profile">
+
+                            <img SRC=" ./Img/vegetal.jpg" />
+
+                            <h1>
+                                Papel vegetal
+                            </h1>
+
+                            <div class="bar">
+
+                                <span class="one"></span><span class="two"></span><span class="three"></span><span
+                                    class="four"></span><span class="five"></span>
+
+                            </div>
+
+                            <h2>
+                                $1.00
+                            </h2>
+
+                            <input type="button" class="btn" value="Añadir al Carrito">
+
+                        </div>
+
+                    </td>
+
+
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <div style=" width: 100% ; height: 1px ;background:rgb(128, 133, 138)"></div>
+                    </td>
+                </tr>
+                <tr>
+
+                    <td>
+
+                        <div class="profile">
+
+                            <img SRC=" ./Img/cuaderno1.jpg" />
+
+                            <h1>
+                                Cuaderno rayado
+                            </h1>
+
+                            <div class="bar">
+
+                                <span class="one"></span><span class="two"></span><span class="three"></span><span
+                                    class="four"></span><span class="five"></span>
+
+                            </div>
+
+                            <h2>
+                                $1.25
+                            </h2>
+
+                            <input type="button" class="btn" value="Añadir al Carrito">
+
+                        </div>
+
+                    </td>
+                    <td>
+
+                        <div class="profile">
+
+                            <img SRC=" ./Img/cuaderno2.jpg" />
+
+                            <h1>
+                                Cuaderno cuadriculado
+                            </h1>
+
+                            <div class="bar">
+
+                                <span class="one"></span><span class="two"></span><span class="three"></span><span
+                                    class="four"></span><span class="five"></span>
+
+                            </div>
+
+                            <h2>
+                                $1.25
+                            </h2>
+
+                            <input type="button" class="btn" value="Añadir al Carrito">
+
+                        </div>
+
+                    </td>
+                    <td>
+
+                        <div class="profile">
+
+                            <img SRC=" ./Img/folder02.jpg" />
+
+                            <h1>
+                                Folder de colores
+                            </h1>
+
+                            <div class="bar">
+
+                                <span class="one"></span><span class="two"></span><span class="three"></span><span
+                                    class="four"></span><span class="five"></span>
+
+                            </div>
+
+                            <h2>
+                                $1.00
+                            </h2>
+
+                            <input type="button" class="btn" value="Añadir al Carrito">
+
+                        </div>
+
+                    </td>
+                    <td>
+
+                        <div class="profile">
+
+                            <img SRC=" ./Img/kit2.jpg" />
+
+                            <h1>
+                                Kit de lapiceros
+                            </h1>
+
+                            <div class="bar">
+
+                                <span class="one"></span><span class="two"></span><span class="three"></span><span
+                                    class="four"></span><span class="five"></span>
+
+                            </div>
+
+                            <h2>
+                                $8.00
+                            </h2>
+
+                            <input type="button" class="btn" value="Añadir al Carrito">
+
+                        </div>
+
+                    </td>
+
+
+                </tr>
+
+                <tr>
+                    <td>
+
+                        <div class="profile">
+
+                            <img SRC=" ./Img/lapices.jpg" />
+
+                            <h1>
+                                Kit de lapices y colores
+                            </h1>
+
+                            <div class="bar">
+
+                                <span class="one"></span><span class="two"></span><span class="three"></span><span
+                                    class="four"></span><span class="five"></span>
+
+                            </div>
+
+                            <h2>
+                                $10.00
+                            </h2>
+
+                            <input type="button" class="btn" value="Añadir al Carrito">
+
+                        </div>
+
+                    </td>
+                    <td>
+
+                        <div class="profile">
+
+                            <img SRC=" ./Img/kit3.jpg" />
+
+                            <h1>
+                                Kit completo
+                            </h1>
+
+                            <div class="bar">
+
+                                <span class="one"></span><span class="two"></span><span class="three"></span><span
+                                    class="four"></span><span class="five"></span>
+
+                            </div>
+
+                            <h2>
+                                $25.00
+                            </h2>
+
+                            <input type="button" class="btn" value="Añadir al Carrito">
+
+                        </div>
+
+                    </td>
+                    <td>
+
+                        <div class="profile">
+
+                            <img SRC=" ./Img/libreta01.jpg" />
+
+                            <h1>
+                                Libretas para apuntes
+                            </h1>
+
+                            <div class="bar">
+
+                                <span class="one"></span><span class="two"></span><span class="three"></span><span
+                                    class="four"></span><span class="five"></span>
+
+                            </div>
+
+                            <h2>
+                                $1.00
+                            </h2>
+
+                            <input type="button" class="btn" value="Añadir al Carrito">
+
+                        </div>
+
+                    </td>
+                    <td>
+
+                        <div class="profile">
+
+                            <img SRC=" ./Img/marcadores.jpg" />
+
+                            <h1>
+                                Juego de marcadores
+                            </h1>
+
+                            <div class="bar">
+
+                                <span class="one"></span><span class="two"></span><span class="three"></span><span
+                                    class="four"></span><span class="five"></span>
+
+                            </div>
+
+                            <h2>
+                                $2.50
+                            </h2>
+
+                            <input type="button" class="btn" value="Añadir al Carrito">
+
+                        </div>
+
+                    </td>
+                </tr>
+                <tr>
+
+                    <td>
+
+                        <div class="profile">
+
+                            <img SRC=" ./Img/colores.jpg" />
+
+                            <h1>
+                                Colores
+                            </h1>
+
+                            <div class="bar">
+
+                                <span class="one"></span><span class="two"></span><span class="three"></span><span
+                                    class="four"></span><span class="five"></span>
+
+                            </div>
+
+                            <h2>
+                                $1.25
+                            </h2>
+
+                            <input type="button" class="btn" value="Añadir al Carrito">
+
+                        </div>
+
+                    </td>
+                    <td>
+
+                        <div class="profile">
+
+                            <img SRC=" ./Img/colorear.jpg" />
+
+                            <h1>
+                                Cuaderno para colorear para niñas
+                            </h1>
+
+                            <div class="bar">
+
+                                <span class="one"></span><span class="two"></span><span class="three"></span><span
+                                    class="four"></span><span class="five"></span>
+
+                            </div>
+
+                            <h2>
+                                $1.25
+                            </h2>
+
+                            <input type="button" class="btn" value="Añadir al Carrito">
+
+                        </div>
+
+                    </td>
+                    <td>
+
+                        <div class="profile">
+
+                            <img SRC=" ./Img/colorear02.jpg" />
+
+                            <h1>
+                                Cuaderno para colorear para niños
+                            </h1>
+
+                            <div class="bar">
+
+                                <span class="one"></span><span class="two"></span><span class="three"></span><span
+                                    class="four"></span><span class="five"></span>
+
+                            </div>
+
+                            <h2>
+                                $1.25
+                            </h2>
+
+                            <input type="button" class="btn" value="Añadir al Carrito">
+
+                        </div>
+
+                    </td>
+                    <td>
+
+                        <div class="profile">
+
+                            <img SRC=" ./Img/manualidades05.jpg" />
+
+                            <h1>
+                                Brillantinas
+                            </h1>
+
+                            <div class="bar">
+
+                                <span class="one"></span><span class="two"></span><span class="three"></span><span
+                                    class="four"></span><span class="five"></span>
+
+                            </div>
+
+                            <h2>
+                                $1.00
+                            </h2>
+
+                            <input type="button" class="btn" value="Añadir al Carrito">
+
+                        </div>
+
+                    </td>
+
+
+                </tr>
+                <tr>
+
+                    <td>
+
+                        <div class="profile">
+
+                            <img SRC=" ./Img/manualidades08.jpg" />
+
+                            <h1>
+                                Pintura de dedos
+                            </h1>
+
+                            <div class="bar">
+
+                                <span class="one"></span><span class="two"></span><span class="three"></span><span
+                                    class="four"></span><span class="five"></span>
+
+                            </div>
+
+                            <h2>
+                                $2.25
+                            </h2>
+
+                            <input type="button" class="btn" value="Añadir al Carrito">
+
+                        </div>
+
+                    </td>
+                    <td>
+
+                        <div class="profile">
+
+                            <img SRC=" ./Img/manualidades06.jpg" />
+
+                            <h1>
+                                Silicon liquido
+                            </h1>
+
+                            <div class="bar">
+
+                                <span class="one"></span><span class="two"></span><span class="three"></span><span
+                                    class="four"></span><span class="five"></span>
+
+                            </div>
+
+                            <h2>
+                                $1.00
+                            </h2>
+
+                            <input type="button" class="btn" value="Añadir al Carrito">
+
+                        </div>
+
+                    </td>
+                    <td>
+
+                        <div class="profile">
+
+                            <img SRC=" ./Img/manualidades07.jpg" />
+
+                            <h1>
+                                Silicon en barra
+                            </h1>
+
+                            <div class="bar">
+
+                                <span class="one"></span><span class="two"></span><span class="three"></span><span
+                                    class="four"></span><span class="five"></span>
+
+                            </div>
+
+                            <h2>
+                                $0.25
+                            </h2>
+
+                            <input type="button" class="btn" value="Añadir al Carrito">
+
+                        </div>
+
+                    </td>
+                    <td>
+
+                        <div class="profile">
+
+                            <img SRC=" ./Img/manualidades10.jpg" />
+
+                            <h1>
+                                Pistola para silicon
+                            </h1>
+
+                            <div class="bar">
+
+                                <span class="one"></span><span class="two"></span><span class="three"></span><span
+                                    class="four"></span><span class="five"></span>
+
+                            </div>
+
+                            <h2>
+                                $2.00
+                            </h2>
+
+                            <input type="button" class="btn" value="Añadir al Carrito">
+
+                        </div>
+
+                    </td>
+
+
+                </tr>
+                <tr>
+
+                    <td>
+
+                        <div class="profile">
+
+                            <img SRC=" ./Img/compas.jpg" />
+
+                            <h1>
+                                Compás
+                            </h1>
+
+                            <div class="bar">
+
+                                <span class="one"></span><span class="two"></span><span class="three"></span><span
+                                    class="four"></span><span class="five"></span>
+
+                            </div>
+
+                            <h2>
+                                $1.25
+                            </h2>
+
+                            <input type="button" class="btn" value="Añadir al Carrito">
+
+                        </div>
+
+                    </td>
+                    <td>
+
+                        <div class="profile">
+
+                            <img SRC=" ./Img/mochila.jpg" />
+
+                            <h1>
+                                Mochila para niña
+                            </h1>
+
+                            <div class="bar">
+
+                                <span class="one"></span><span class="two"></span><span class="three"></span><span
+                                    class="four"></span><span class="five"></span>
+
+                            </div>
+
+                            <h2>
+                                $40.00
+                            </h2>
+
+                            <input type="button" class="btn" value="Añadir al Carrito">
+
+                        </div>
+
+                    </td>
+                    <td>
+
+                        <div class="profile">
+
+                            <img SRC=" ./Img/Mochilas.jpg" />
+
+                            <h1>
+                                Mochila para niño
+                            </h1>
+
+                            <div class="bar">
+
+                                <span class="one"></span><span class="two"></span><span class="three"></span><span
+                                    class="four"></span><span class="five"></span>
+
+                            </div>
+
+                            <h2>
+                                $40.00
+                            </h2>
+
+                            <input type="button" class="btn" value="Añadir al Carrito">
+
+                        </div>
+
+                    </td>
+                    <td>
+
+                        <div class="profile">
+
+                            <img SRC=" ./Img/tirro.jpg" />
+
+                            <h1>
+                                Tirro
+                            </h1>
+
+                            <div class="bar">
+
+                                <span class="one"></span><span class="two"></span><span class="three"></span><span
+                                    class="four"></span><span class="five"></span>
+
+                            </div>
+
+                            <h2>
+                                $1.00
+                            </h2>
+
+                            <input type="button" class="btn" value="Añadir al Carrito">
+
+                        </div>
+
+                    </td>
+
+
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <div style=" width: 100% ; height: 1px ;background:rgb(128, 133, 138)"></div>
+                    </td>
+                </tr>
+
+            </TABLE>
+
+        </div>
+
+    </div>
+    <font size="4" face="Comic Sans MS,arial,verdana">
+
+        <!-- Pie de pagina -->
+        <footer class="pied" style=" position: relative; top: 30px;" ;>
+            <table>
+                <tr>
+                    <td rowspan="4">
+                        <h2>Información de Contacto</h2>
+                        <h4>Dirección</h4>
+                        79 Av. Norte, Col. Escalon, San Salvador.
+                        <h4>Telefono</h4>
+                        (503) 2222-2222
+                        <h4>Correo</h4>
+                        correo@correo.com.sv <br />
+                        <table>
+                            <tr>
+                                <td>
+                                    <a href="#" title=""><img src="./Img/facebook.png" alt="Facebook" /></a>
+                                </td>
+                                <td>
+                                    <a href="#" title=""><img src="./Img/instagram.png" alt="Instagram" /></a>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td colspan="4">
+                        <h2>Suscripción</h2>
+                        <table width="100%">
+                            <tr>
+                                <td>
+                                    Obtenga toda la informacion acerca de nuestros productos, <br> ofertas y mas.
+                                </td>
+                                <td>
+                                    <input id="suscripcionEmail" type="email" name="" value="" placeholder="Tu dirección de correo aqui" /><input
+                                        id="suscripcionEnviar" type="submit" name="name" value="Sing In" />
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="4">
+                        <hr />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <table>
+                            <thead class="center">
+                                <tr>
+                                    <td>
+                                        Mi cuenta
+                                    </td>
+                                    <td>
+                                        Pagos y Envios
+                                    </td>
+                                    <td>
+                                        Informacion
+                                    </td>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="center">
+                                        <ul>
+                                            <li><a href="#">Iniciar sesion</a></li>
+                                            <li><a href="#">Carrito</a></li>
+                                            <li><a href="#">Mis compras</a></li>
+                                        </ul>
+                                    </td>
+                                    <td class="center">
+                                        <ul>
+                                            <li><a href="#">Cotizaciones</a></li>
+                                            <li><a href="#">Costos</a></li>
+                                            <li><a href="#">content</a></li>
+
+                                        </ul>
+                                    </td>
+                                    <td class="center">
+                                        <ul>
+                                            <li><a href="#">Promociones</a></li>
+                                            <li><a href="#">Ventas por mayoreo</a></li>
+                                            <li><a href="#">Ofertas</a></li>
+                                        </ul>
+                                    </td>
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="5">
+                        &copy; UTEC 2018. All Rights Reserved.
+                    </td>
+                </tr>
+            </table>
+        </footer>
+
+</body>
+
+</html>
