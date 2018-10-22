@@ -1,5 +1,5 @@
 # Tienda
-DPweb
+Desarillo de Plataformas Web Ciclo 2 - 2018
 
 Tienda Enlinea de Libreria y Papeleria Dany
 
