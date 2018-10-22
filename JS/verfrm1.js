@@ -32,12 +32,15 @@ function mostrarfrm5() {
         document.getElementById("adminfrm5").style.display = "block"; 
         document.getElementById("adminfrm6").style.display = "none";  
         document.getElementById("navegacion4").style.display = "none"; 
+
+        document.getElementById("adminfrm1").style.display = "none"; 
+        document.getElementById("adminfrm2").style.display = "none"; 
+        document.getElementById("adminfrm3").style.display = "none"; 
         n2 = n2 + 1;
 
         } else{
      
             document.getElementById("adminfrm5").style.display = "none"; 
-     
             document.getElementById("navegacion4").style.display = "none"; 
          n2 = 1;
          n = 1;
@@ -55,6 +58,9 @@ function mostrarfrm6() {
         document.getElementById("adminfrm5").style.display = "none"; 
         document.getElementById("adminfrm6").style.display = "block"; 
         document.getElementById("navegacion4").style.display = "none"; 
+        document.getElementById("adminfrm1").style.display = "none"; 
+        document.getElementById("adminfrm2").style.display = "none"; 
+        document.getElementById("adminfrm3").style.display = "none"; 
         n3 = n3 + 1;
       
         } else{

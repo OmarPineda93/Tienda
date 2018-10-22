@@ -84,6 +84,10 @@ h2 span {
 	border-bottom: solid #F39B53 .2rem;
 }
 
+.input{
+	text-align: left;
+}
+
 .btn_submit,
 .btn_reset {
 	width: 40%;
