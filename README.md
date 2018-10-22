@@ -7,12 +7,16 @@ Acerca de.
 
 N° de version 
 ************************************************************
+
 Diseño: 1.5.00
+
 Funcionalidad: 0.0.00
+
 ************************************************************
 
 Desarolladores.
 ************************************************************
+
    ARCE AGUIRRE, JASON ALEXANDER   	    25-0129-2017
    
    CARDONA CRUZ, MANUEL ANTONIO	       25-4629-2017
@@ -30,6 +34,7 @@ Desarolladores.
    PINEDA MONTANO, OMAR FERNANDO	       27-0097-2017
    
    VEGA PONCE, INGRID GRISELDA	       25-2397-2017
+   
 ************************************************************   
 
 Todos los Derechos Reservados. 
