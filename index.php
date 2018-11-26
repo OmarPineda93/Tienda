@@ -1,12 +1,8 @@
-<?
-require_once("Scritp PHP/Conexion.php");
-$conectarDB = new conexionBD();
-$conectarDB->conectarDB();
-?>
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    
+
     <!-- codigo generado por el lansador o extencio de Visual estudio code -->
     <!-- codificasion de caracteres -->
     <meta charset="UTF-8">
@@ -33,7 +29,7 @@ $conectarDB->conectarDB();
 </head>
 
 <body>
-<!--Encabezado y menus de navegacion-->
+    <!--Encabezado y menus de navegacion-->
     <header>
         <!--Logo de empresa-->
         <div id="logo">
@@ -63,7 +59,7 @@ $conectarDB->conectarDB();
                                     <tbody>
                                         <tr>
                                             <td>
-                                                <a href="./vistas/Cuadernos_Libretas.html">
+                                                <a href="./vistas/cuadernos_libretas.php">
                                                     Cuadernos y libretas
                                                 </a>
                                             </td>
@@ -75,7 +71,7 @@ $conectarDB->conectarDB();
                                         </tr>
                                         <tr>
                                             <td>
-                                                <a href="./vistas/lapices_boligrafos.html">
+                                                <a href="./vistas/lapices_boligrafos.php">
                                                     lapices y Boligrafos
                                                 </a>
                                             </td>
@@ -87,7 +83,7 @@ $conectarDB->conectarDB();
                                         </tr>
                                         <tr>
                                             <td>
-                                                <a href="#">
+                                                <a href="./vistas/extras1.php">
                                                     Extras
                                                 </a>
                                             </td>
@@ -109,7 +105,7 @@ $conectarDB->conectarDB();
                                     <tbody>
                                         <tr>
                                             <td>
-                                                <a href="./vistas/Papeleria.html">
+                                                <a href="./vistas/papeleria.php">
                                                     Papeleria
                                                 </a>
                                             </td>
@@ -121,7 +117,7 @@ $conectarDB->conectarDB();
                                         </tr>
                                         <tr>
                                             <td>
-                                                <a href="./vistas/foamy.html"> Foamy</a>
+                                                <a href="./vistas/foamy.php"> Foamy</a>
 
                                             </td>
                                         </tr>
@@ -133,7 +129,7 @@ $conectarDB->conectarDB();
                                         </tr>
                                         <tr>
                                             <td>
-                                                <a href="./vistas/materialDecorativo.html">Material Decorativo</a>
+                                                <a href="./vistas/materialDecorativo.php">Material Decorativo</a>
                                             </td>
                                         </tr>
 
@@ -145,7 +141,7 @@ $conectarDB->conectarDB();
                                         </tr>
                                         <tr>
                                             <td>
-                                                <a href="./vistas/Coloreo.html">Coloreo</a>
+                                                <a href="./vistas/coloreo.php">Coloreo</a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -155,7 +151,7 @@ $conectarDB->conectarDB();
                                         </tr>
                                         <tr>
                                             <td>
-                                                <a href="./vistas/Pegamentos.html">Pegamentos y Adecivos</a>
+                                                <a href="./vistas/pegamento.php">Pegamentos y Adecivos</a>
                                             </td>
 
                                         </tr>
@@ -167,7 +163,7 @@ $conectarDB->conectarDB();
                                         </tr>
                                         <tr>
                                             <td>
-                                                <a href="./vistas/extras2.html"> Extras</a>
+                                                <a href="./vistas/extras2.php"> Extras</a>
 
                                             </td>
                                         </tr>
@@ -187,7 +183,7 @@ $conectarDB->conectarDB();
                                     <tbody>
                                         <tr>
                                             <td>
-                                                <a href="./vistas/librosTexto.html">
+                                                <a href="./vistas/librosTexto.php">
                                                     Libros de Texto
                                                 </a>
                                             </td>
@@ -199,7 +195,7 @@ $conectarDB->conectarDB();
                                         </tr>
                                         <tr>
                                             <td>
-                                                <a href="./vistas/Obras.html"> Obras literias</a>
+                                                <a href="./vistas/obras.php"> Obras literias</a>
 
                                             </td>
                                         </tr>
@@ -295,24 +291,26 @@ $conectarDB->conectarDB();
                     <nav id="colorNav">
                         <ul id="ulu">
                             <li class="red">
-                                <a href="./vistas/Infromacion.html"> <p for="btn2"> Información</p> </a>
+                                <a href="./vistas/informacion.php">
+                                    <p for="btn2"> Información</p>
+                                </a>
                                 <ul>
                                 </ul>
                             </li>
                             <li class="purple">
                                 <p href="#">Sesión</p>
                                 <ul>
-                                    <li><a href="./vistas/Login.html">Iniciar Sesión</a></li>
-                                    <li><a href="./vistas/Registrar.html">Registrate</a></li>
+                                    <li><a href="./vistas/login.php">Iniciar Sesión</a></li>
+                                    <li><a href="./vistas/registrar.php">Registrate</a></li>
                                 </ul>
                             </li>
                         </ul>
                     </nav>
                 </div>
                 <!--Carrito de Compras-->
-                <a href="./vistas/Carrito.html">
-                    <div id="carrito"><a href="./vistas/Carrito.html">
-                        </a><a href="./vistas/Carrito.html">
+                <a href="./vistas/carrito.php">
+                    <div id="carrito"><a href="./vistas/carrito.php">
+                        </a><a href="./vistas/carrito.php">
                             <img src="./Img/carrito2.png">
                         </a>
                         <p>Carrito <br> $00.00</p>
@@ -343,10 +341,10 @@ $conectarDB->conectarDB();
         <img class="mySlides" src="https://static9.depositphotos.com/1000604/1216/i/950/depositphotos_12166092-stock-photo-primary-school-stationery.jpg"
             style="width:100%; height: 450px;">
 
-            <img class="mySlides" src="./Img/publi1.png " style="width:100%; height: 450px;">
-            <img class="mySlides" src="./Img/publi2.png " style="width:100%; height: 450px;">
-            <img class="mySlides" src="./Img/publi3.png " style="width:100%; height: 450px;">
-            <img class="mySlides" src="./Img/publi4.png " style="width:100%; height: 450px;">
+        <img class="mySlides" src="./Img/publi1.png " style="width:100%; height: 450px;">
+        <img class="mySlides" src="./Img/publi2.png " style="width:100%; height: 450px;">
+        <img class="mySlides" src="./Img/publi3.png " style="width:100%; height: 450px;">
+        <img class="mySlides" src="./Img/publi4.png " style="width:100%; height: 450px;">
         <button class="prev" onclick="plusDivs(-1)">&#10094;</button>
         <button class="next" onclick="plusDivs(1)">&#10095;</button>
         <script src="./JS/slider.js"></script>
@@ -741,44 +739,44 @@ $conectarDB->conectarDB();
     </section>
     <div>
         <table width=100%>
-        <tr>
-        <td colspan="9" >
-        <marquee height="150px" scrollamount="7" scrolldelay="100" direction="left" loop="infinite">
-            <center>
-            <img width="10%" height="30%" align=center src="./Img/marcas/marca01.jpg">
-            <img width="15%" align=center src="./Img/marcas/marca02.jpg">
-            <img width="15%" align=center src="./Img/marcas/marca04.jpg">
-            <img width=15% align=center src="./Img/marcas/marca05.jpg">
-            <img width=15% align=center src="./Img/marcas/marca06.jpg">
-            <img width=15% align=center src="./Img/marcas/marca07.jpg">
-            <img width=15% align=center src="./Img/marcas/marca08.jpg">
-            <img width=15% align=center src="./Img/marcas/marca09.jpg">
-            <img width=15% align=center src="./Img/marcas/marca10.jpg">
-            <img width=15% align=center src="./Img/marcas/marca11.jpg">
-            <img width=15% align=center src="./Img/marcas/marca03.jpg">
-            <img width=15% align=center src="./Img/marcas/marca12.jpg">
-            <img width=15% align=center src="./Img/marcas/marca13.jpg">
-            <img width=15% align=center src="./Img/marcas/marca14.jpg">
-            <img width=15% align=center src="./Img/marcas/marca15.jpg">
-            <img width=10% align=center src="./Img/marcas/marca01.jpg">
-            <img width=15% align=center src="./Img/marcas/marca02.jpg">
-            <img width=15% align=center src="./Img/marcas/marca04.jpg">
-            <img width=15% align=center src="./Img/marcas/marca05.jpg">
-            <img width=15% align=center src="./Img/marcas/marca06.jpg">
-            <img width=15% align=center src="./Img/marcas/marca07.jpg">
-            <img width=15% align=center src="./Img/marcas/marca08.jpg">
-            <img width=15% align=center src="./Img/marcas/marca09.jpg">
-            <img width=15% align=center src="./Img/marcas/marca10.jpg">
-            <img width=15% align=center src="./Img/marcas/marca11.jpg">
-            <img width=15% align=center src="./Img/marcas/marca03.jpg">
-            <img width=15% align=center src="./Img/marcas/marca12.jpg">
-            <img width=15% align=center src="./Img/marcas/marca13.jpg">
-            <img width=15% align=center src="./Img/marcas/marca14.jpg">
-            <img width=15% align=center src="./Img/marcas/marca15.jpg">
-            </center>
-            </marquee>
-        </td>
-        </tr>
+            <tr>
+                <td colspan="9">
+                    <marquee height="150px" scrollamount="7" scrolldelay="100" direction="left" loop="infinite">
+                        <center>
+                            <img width="10%" height="30%" align=center src="./Img/marcas/marca01.jpg">
+                            <img width="15%" align=center src="./Img/marcas/marca02.jpg">
+                            <img width="15%" align=center src="./Img/marcas/marca04.jpg">
+                            <img width=15% align=center src="./Img/marcas/marca05.jpg">
+                            <img width=15% align=center src="./Img/marcas/marca06.jpg">
+                            <img width=15% align=center src="./Img/marcas/marca07.jpg">
+                            <img width=15% align=center src="./Img/marcas/marca08.jpg">
+                            <img width=15% align=center src="./Img/marcas/marca09.jpg">
+                            <img width=15% align=center src="./Img/marcas/marca10.jpg">
+                            <img width=15% align=center src="./Img/marcas/marca11.jpg">
+                            <img width=15% align=center src="./Img/marcas/marca03.jpg">
+                            <img width=15% align=center src="./Img/marcas/marca12.jpg">
+                            <img width=15% align=center src="./Img/marcas/marca13.jpg">
+                            <img width=15% align=center src="./Img/marcas/marca14.jpg">
+                            <img width=15% align=center src="./Img/marcas/marca15.jpg">
+                            <img width=10% align=center src="./Img/marcas/marca01.jpg">
+                            <img width=15% align=center src="./Img/marcas/marca02.jpg">
+                            <img width=15% align=center src="./Img/marcas/marca04.jpg">
+                            <img width=15% align=center src="./Img/marcas/marca05.jpg">
+                            <img width=15% align=center src="./Img/marcas/marca06.jpg">
+                            <img width=15% align=center src="./Img/marcas/marca07.jpg">
+                            <img width=15% align=center src="./Img/marcas/marca08.jpg">
+                            <img width=15% align=center src="./Img/marcas/marca09.jpg">
+                            <img width=15% align=center src="./Img/marcas/marca10.jpg">
+                            <img width=15% align=center src="./Img/marcas/marca11.jpg">
+                            <img width=15% align=center src="./Img/marcas/marca03.jpg">
+                            <img width=15% align=center src="./Img/marcas/marca12.jpg">
+                            <img width=15% align=center src="./Img/marcas/marca13.jpg">
+                            <img width=15% align=center src="./Img/marcas/marca14.jpg">
+                            <img width=15% align=center src="./Img/marcas/marca15.jpg">
+                        </center>
+                    </marquee>
+                </td>
+            </tr>
         </table>
     </div>
 
@@ -890,3 +888,11 @@ $conectarDB->conectarDB();
 </body>
 
 </html>
+<?
+require_once("Scritp PHP/Conexion.php");
+$conectarDB = new conexionBD();
+$conectarDB->conectarDB(); //compravacion de conecion
+
+
+
+?>

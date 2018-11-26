@@ -28,7 +28,6 @@
 </head>
 
 <body>
-
     <header>
         <!--Logo de empresa-->
         <div id="logo">
@@ -43,7 +42,7 @@
                     <nav class="box">
                         <input type="button" name="accordion" id="btn" onclick="mostrarmenu()">
                         <label class="box-title1" for="btn"> <img align="left" style=" position: relative; top: 6px; left: 10px; opacity: 85%;"
-                                src=" ../Img/menu.png"> Categorias</label>
+                                src="../Img/menu.png"> Categorias</label>
                     </nav>
 
                     <div id="menu">
@@ -59,7 +58,7 @@
                                     <tbody>
                                         <tr>
                                             <td>
-                                                <a href="../vistas/Cuadernos_Libretas.html">
+                                                <a href="cuadernos_libretas.php">
                                                     Cuadernos y libretas
                                                 </a>
                                             </td>
@@ -71,7 +70,7 @@
                                         </tr>
                                         <tr>
                                             <td>
-                                                <a href="../vistas/lapices_boligrafos.html">
+                                                <a href="lapices_boligrafos.php">
                                                     lapices y Boligrafos
                                                 </a>
                                             </td>
@@ -83,7 +82,7 @@
                                         </tr>
                                         <tr>
                                             <td>
-                                                <a href="#">
+                                                <a href="extras1.php">
                                                     Extras
                                                 </a>
                                             </td>
@@ -105,7 +104,7 @@
                                     <tbody>
                                         <tr>
                                             <td>
-                                                <a href="../vistas/Papeleria.html">
+                                                <a href="papeleria.php">
                                                     Papeleria
                                                 </a>
                                             </td>
@@ -117,7 +116,7 @@
                                         </tr>
                                         <tr>
                                             <td>
-                                                <a href="../vistas/foamy.html"> Foamy</a>
+                                                <a href="foamy.php"> Foamy</a>
 
                                             </td>
                                         </tr>
@@ -129,8 +128,7 @@
                                         </tr>
                                         <tr>
                                             <td>
-                                                <a href="../vistas/materialDecorativo.html">Material Decorativo</a>
-
+                                                <a href="materialDecorativo.php">Material Decorativo</a>
                                             </td>
                                         </tr>
 
@@ -142,7 +140,7 @@
                                         </tr>
                                         <tr>
                                             <td>
-                                                <a href="../vistas/Coloreo.html">Coloreo</a>
+                                                <a href="coloreo.php">Coloreo</a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -152,7 +150,7 @@
                                         </tr>
                                         <tr>
                                             <td>
-                                                <a href="../vistas/Pegamentos.html">Pegamentos y Adecivos</a>
+                                                <a href="pegamento.php">Pegamentos y Adecivos</a>
                                             </td>
 
                                         </tr>
@@ -164,7 +162,7 @@
                                         </tr>
                                         <tr>
                                             <td>
-                                                <a href="../vistas/extras2.html"> Extras</a>
+                                                <a href="extras2.php"> Extras</a>
 
                                             </td>
                                         </tr>
@@ -184,7 +182,7 @@
                                     <tbody>
                                         <tr>
                                             <td>
-                                                <a href="../vistas/librosTexto.html">
+                                                <a href="librosTexto.php">
                                                     Libros de Texto
                                                 </a>
                                             </td>
@@ -196,7 +194,7 @@
                                         </tr>
                                         <tr>
                                             <td>
-                                                <a href="../vistas/Obras.html"> Obras literias</a>
+                                                <a href="obras.php"> Obras literias</a>
 
                                             </td>
                                         </tr>
@@ -207,66 +205,66 @@
                         </section>
 
                         <!--        <input type="radio" name="accordion" id="cb4">
-                                    <section class="box">
-                                        <label class="box-title" for="cb4">Item 3</label>
-                                        <label class="box-close" for="acc-close"></label>
-                                        <div class="box-content">
-            
-                                            <table>
-                                                <tbody>
-                                                    <tr>
-                                                        <td>
-                                                            <a href="#">
-                                                                Cuadernos
-                                                            </a>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>
-                                                            <div id="sep"></div>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>
-                                                            Libretas
-                                                        </td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-            
-                                        </div>
-                                    </section>
-            
-                                    <input type="radio" name="accordion" id="cb5">
-                                    <section class="box">
-                                        <label class="box-title" for="cb5">Item 3</label>
-                                        <label class="box-close" for="acc-close"></label>
-                                        <div class="box-content">
-            
-                                            <table>
-                                                <tbody>
-                                                    <tr>
-                                                        <td>
-                                                            <a href="#">
-                                                                Cuadernos
-                                                            </a>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>
-                                                            <div style=" width: 100% ; height: 1px ;background:rgb(128, 133, 138)"></div>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>
-                                                            Libretas
-                                                        </td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-            
-                                        </div>
-                                    </section> -->
+                        <section class="box">
+                            <label class="box-title" for="cb4">Item 3</label>
+                            <label class="box-close" for="acc-close"></label>
+                            <div class="box-content">
+
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <a href="#">
+                                                    Cuadernos
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div id="sep"></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                Libretas
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                            </div>
+                        </section>
+
+                        <input type="radio" name="accordion" id="cb5">
+                        <section class="box">
+                            <label class="box-title" for="cb5">Item 3</label>
+                            <label class="box-close" for="acc-close"></label>
+                            <div class="box-content">
+
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <a href="#">
+                                                    Cuadernos
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div style=" width: 100% ; height: 1px ;background:rgb(128, 133, 138)"></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                Libretas
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                            </div>
+                        </section> -->
                         <input type="radio" name="accordion" id="acc-close">
                     </div>
                 </div>
@@ -292,14 +290,14 @@
                     <nav id="colorNav2">
                         <ul id="ulu2">
                             <li class="gren2">
-                                <a href="../Index.html">
+                                <a href="../index.php">
                                     <p>Inicio</p>
                                 </a>
                                 <ul>
                                 </ul>
                             </li>
                             <li class="red2">
-                                <a href="../vistas/Infromacion.html">
+                                <a href="infromacion.php">
                                     <p for="btn2"> Información</p>
                                 </a>
                                 <ul>
@@ -308,8 +306,8 @@
                             <li class="purple2">
                                 <p href="#">Sesión</p>
                                 <ul>
-                                    <li><a href="../vistas/Login.html">Iniciar Sesión</a></li>
-                                    <li><a href="../vistas/Registrar.html">Registrate</a></li>
+                                    <li><a href="login.php">Iniciar Sesión</a></li>
+                                    <li><a href="registrarse.php">Registrate</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -317,8 +315,8 @@
                 </div>
                 <!--Carrito de Compras-->
                 <div id="carrito2">
-                    <a href="../vistas/Carrito.html">
-                    </a><a href="../vistas/Carrito.html">
+                    <a href="carrito.php">
+                    </a><a href="carrito.php">
                         <img id="car" src=" ../Img/carrito4.png">
                     </a>
                     <p id="total">Carrito <br> $00.00</p>
@@ -337,7 +335,7 @@
             </div>
         </div>
     </header>
-   
+
     <div id="separador">
 
     </div>
@@ -363,343 +361,115 @@
 
         <table align="center">
 
-                <tr>
-
-                        <td > 
-
-                            <div class="profile">
-
-                                <img src="../Img/coloreo1.jpg" />
-
-                                <h1>
-                                    Libro bestiario para colorear
-                                </h1>
-
-                            <div class="bar">
-
-                                <span class="one"></span><span class="two"></span><span class="three"></span><span class="four"></span><span class="five"></span>
-                        
-                            </div>
-
-                                <h2>
-                                    $3.75
-                                </h2>
-
-                                <input type="button" class="btn" value="Añadir al Carrito">
-                                        
-                            </div>  
-
-                        </td>
-
-                        <td > 
-
-                            <div class="profile">
-    
-                                <img src=" ../Img/coloreo2.jpg" />
-    
-                                <h1>
-                                    Libro para colorear Jardin Secreto
-                                </h1>
-    
-                        <div class="bar">
-    
-                                <span class="one"></span><span class="two"></span><span class="three"></span><span class="four"></span><span class="five"></span>
-                            
-                            </div>
-    
-                                <h2>
-                                    $3.00
-                                </h2>
-    
-                                <input type="button" class="btn" value="Añadir al Carrito">
-                                            
-                            </div>  
-    
-                        </td>
-
-                        <td > 
-
-                                <div class="profile">
-    
-                                    <img src=" ../Img/coloreo3.jpg" />
-    
-                                    <h1>
-                                        Caja de colores Metal Box
-                                    </h1>
-    
-                                <div class="bar">
-    
-                                    <span class="one"></span><span class="two"></span><span class="three"></span><span class="four"></span><span class="five"></span>
-                            
-                                </div>
-    
-                                    <h2>
-                                        $3.00 a $5.00
-                                    </h2>
-    
-                                    <input type="button" class="btn" value="Añadir al Carrito">
-                                            
-                                </div>  
-    
-                        </td>
-
-                        <td > 
-    
-                                <div class="profile">
-        
-                                    <img src=" ../Img/coloreo4.jpg" />
-        
-                                    <h1>
-                                        Caja de colores Big Evolution 
-                                    </h1>
-        
-                            <div class="bar">
-        
-                                    <span class="one"></span><span class="two"></span><span class="three"></span><span class="four"></span><span class="five"></span>
-                                
-                                </div>
-        
-                                    <h2>
-                                        $3.50
-                                    </h2>
-        
-                                    <input type="button" class="btn" value="Añadir al Carrito">
-                                                
-                                </div>  
-        
-                        </td>
-
-                </tr>
             <tr>
-                <td colspan="4">
-                    <div id="divicion">
-                        <div class="circulo">
+
+                <td>
+
+                    <div class="profile">
+
+                        <img src="../Img/coloreo1.jpg" />
+
+                        <h1>
+                            Libro bestiario para colorear
+                        </h1>
+
+                        <div class="bar">
+
+                            <span class="one"></span><span class="two"></span><span class="three"></span><span class="four"></span><span
+                                class="five"></span>
+
                         </div>
-                        <div class="linea">
-                        </div>
+
+                        <h2>
+                            $3.75
+                        </h2>
+
+                        <input type="button" class="btn" value="Añadir al Carrito">
+
                     </div>
+
                 </td>
-            </tr>
-            <tr>
 
-                    <td > 
+                <td>
 
-                        <div class="profile">
+                    <div class="profile">
 
-                            <img src=" ../Img/coloreo5.jpg" />
+                        <img src=" ../Img/coloreo2.jpg" />
 
-                            <h1>
-                                Caja de colores Faber Castell
-                            </h1>
+                        <h1>
+                            Libro para colorear Jardin Secreto
+                        </h1>
 
                         <div class="bar">
 
-                            <span class="one"></span><span class="two"></span><span class="three"></span><span class="four"></span><span class="five"></span>
-                    
+                            <span class="one"></span><span class="two"></span><span class="three"></span><span class="four"></span><span
+                                class="five"></span>
+
                         </div>
 
-                            <h2>
-                                $5.00
-                            </h2>
+                        <h2>
+                            $3.00
+                        </h2>
 
-                            <input type="button" class="btn" value="Añadir al Carrito">
-                                    
-                        </div>  
+                        <input type="button" class="btn" value="Añadir al Carrito">
 
-                    </td>
-
-                    <td > 
-
-                        <div class="profile">
-
-                            <img src=" ../Img/coloreo6.jpg" />
-
-                            <h1>
-                                Acuarelas
-                            </h1>
-
-                    <div class="bar">
-
-                            <span class="one"></span><span class="two"></span><span class="three"></span><span class="four"></span><span class="five"></span>
-                        
-                        </div>
-
-                            <h2>
-                                $2.50
-                            </h2>
-
-                            <input type="button" class="btn" value="Añadir al Carrito">
-                                        
-                        </div>  
-
-                    </td>
-
-                    <td > 
-
-                            <div class="profile">
-
-                                <img src=" ../Img/coloreo7.jpg" />
-
-                                <h1>
-                                    Libretas para dibujar Scribe
-                                </h1>
-
-                            <div class="bar">
-
-                                <span class="one"></span><span class="two"></span><span class="three"></span><span class="four"></span><span class="five"></span>
-                        
-                            </div>
-
-                                <h2>
-                                    $4.00
-                                </h2>
-
-                                <input type="button" class="btn" value="Añadir al Carrito">
-                                        
-                            </div>  
-
-                    </td>
-
-                    <td > 
-
-                            <div class="profile">
-    
-                                <img src="  ../Img/coloreo8.jpg"  />
-    
-                                <h1>
-                                    Pack Libreta de coloreo Forest
-                                </h1>
-    
-                        <div class="bar">
-    
-                                <span class="one"></span><span class="two"></span><span class="three"></span><span class="four"></span><span class="five"></span>
-                            
-                            </div>
-    
-                                <h2>
-                                    $3.50
-                                </h2>
-    
-                                <input type="button" class="btn" value="Añadir al Carrito">
-                                            
-                            </div>  
-    
-                    </td>
-
-            </tr>
-            <tr>
-                <td colspan="4">
-                    <div id="divicion2">
-                        <div class="linea2">
-                        </div>
-                        <div class="circulo2">
-                        </div>
                     </div>
+
                 </td>
-            </tr>
-            <tr>
 
-                    <td > 
+                <td>
 
-                        <div class="profile">
+                    <div class="profile">
 
-                            <img src="  ../Img/coloreo9.jpg"  />
+                        <img src=" ../Img/coloreo3.jpg" />
 
-                            <h1>
-                                Libreta de dibujo Norma
-                            </h1>
+                        <h1>
+                            Caja de colores Metal Box
+                        </h1>
 
                         <div class="bar">
 
-                            <span class="one"></span><span class="two"></span><span class="three"></span><span class="four"></span><span class="five"></span>
-                    
+                            <span class="one"></span><span class="two"></span><span class="three"></span><span class="four"></span><span
+                                class="five"></span>
+
                         </div>
 
-                            <h2>
-                                $4.50
-                            </h2>
+                        <h2>
+                            $3.00 a $5.00
+                        </h2>
 
-                            <input type="button" class="btn" value="Añadir al Carrito">
-                                    
-                        </div>  
+                        <input type="button" class="btn" value="Añadir al Carrito">
 
-                    </td>
-                    <td > 
+                    </div>
 
-                        <div class="profile">
+                </td>
 
-                            <img src="  ../Img/coloreo10.jpg" />
+                <td>
 
-                            <h1>
-                                Pack Reglas para dibujo 
-                            </h1>
+                    <div class="profile">
 
-                    <div class="bar">
+                        <img src=" ../Img/coloreo4.jpg" />
 
-                            <span class="one"></span><span class="two"></span><span class="three"></span><span class="four"></span><span class="five"></span>
-                        
-                        </div>
+                        <h1>
+                            Caja de colores Big Evolution
+                        </h1>
 
-                            <h2>
-                                $6.25
-                            </h2>
-
-                            <input type="button" class="btn" value="Añadir al Carrito">
-                                        
-                        </div>  
-
-                    </td>
-                    <td > 
-
-                            <div class="profile">
-
-                                <img src="  ../Img/coloreo11.jpg"  />
-
-                                <h1>
-                                    Pack Rapidografos
-                                </h1>
-
-                            <div class="bar">
-
-                                <span class="one"></span><span class="two"></span><span class="three"></span><span class="four"></span><span class="five"></span>
-                        
-                            </div>
-
-                                <h2>
-                                    $22.50
-                                </h2>
-
-                                <input type="button" class="btn" value="Añadir al Carrito">
-                                        
-                            </div>  
-
-                    </td>
-                    <td > 
-
-                            <div class="profile">
-    
-                                <img src="   ../Img/coloreo12.jpg" />
-    
-                                <h1>
-                                    paleta de colores
-                                </h1>
-    
                         <div class="bar">
-    
-                                <span class="one"></span><span class="two"></span><span class="three"></span><span class="four"></span><span class="five"></span>
-                            
-                            </div>
-    
-                                <h2>
-                                    $5.00
-                                </h2>
-    
-                                <input type="button" class="btn" value="Añadir al Carrito">
-                                            
-                            </div>  
-    
-                    </td>
-                    
+
+                            <span class="one"></span><span class="two"></span><span class="three"></span><span class="four"></span><span
+                                class="five"></span>
+
+                        </div>
+
+                        <h2>
+                            $3.50
+                        </h2>
+
+                        <input type="button" class="btn" value="Añadir al Carrito">
+
+                    </div>
+
+                </td>
 
             </tr>
             <tr>
@@ -714,107 +484,113 @@
             </tr>
             <tr>
 
-                    <td > 
+                <td>
 
-                        <div class="profile">
+                    <div class="profile">
 
-                            <img src="../Img/coloreo13.jpg" />
+                        <img src=" ../Img/coloreo5.jpg" />
 
-                            <h1>
-                                Regla T para dibujo
-                            </h1>
+                        <h1>
+                            Caja de colores Faber Castell
+                        </h1>
 
                         <div class="bar">
 
-                            <span class="one"></span><span class="two"></span><span class="three"></span><span class="four"></span><span class="five"></span>
-                    
+                            <span class="one"></span><span class="two"></span><span class="three"></span><span class="four"></span><span
+                                class="five"></span>
+
                         </div>
 
-                            <h2>
-                                $3.25
-                            </h2>
+                        <h2>
+                            $5.00
+                        </h2>
 
-                            <input type="button" class="btn" value="Añadir al Carrito">
-                                    
-                        </div>  
+                        <input type="button" class="btn" value="Añadir al Carrito">
 
-                    </td>
-                    <td > 
+                    </div>
 
-                        <div class="profile">
+                </td>
 
-                            <img src="../Img/coloreo14.jpg" />
+                <td>
 
-                            <h1>
-                                Pack Lapices Graduados
-                            </h1>
+                    <div class="profile">
 
-                    <div class="bar">
+                        <img src=" ../Img/coloreo6.jpg" />
 
-                            <span class="one"></span><span class="two"></span><span class="three"></span><span class="four"></span><span class="five"></span>
-                        
-                        </div>
+                        <h1>
+                            Acuarelas
+                        </h1>
 
-                            <h2>
-                                $5.00
-                            </h2>
-
-                            <input type="button" class="btn" value="Añadir al Carrito">
-                                        
-                        </div>  
-
-                    </td>
-                    <td > 
-
-                            <div class="profile">
-
-                                <img src="../Img/coloreo15.jpg" />
-
-                                <h1>
-                                    Caja de lapices graduados
-                                </h1>
-
-                            <div class="bar">
-
-                                <span class="one"></span><span class="two"></span><span class="three"></span><span class="four"></span><span class="five"></span>
-                        
-                            </div>
-
-                                <h2>
-                                    $8.25
-                                </h2>
-
-                                <input type="button" class="btn" value="Añadir al Carrito">
-                                        
-                            </div>  
-
-                    </td>
-                    <td > 
-
-                            <div class="profile">
-    
-                                <img src=" ../Img/coloreo16.jpg" />
-    
-                                <h1>
-                                    Escuadras para dibujo
-                                </h1>
-    
                         <div class="bar">
-    
-                                <span class="one"></span><span class="two"></span><span class="three"></span><span class="four"></span><span class="five"></span>
-                            
-                            </div>
-    
-                                <h2>
-                                    $20.00
-                                </h2>
-    
-                                <input type="button" class="btn" value="Añadir al Carrito">
-                                            
-                            </div>  
-    
-                    </td>
-                    
+
+                            <span class="one"></span><span class="two"></span><span class="three"></span><span class="four"></span><span
+                                class="five"></span>
+
+                        </div>
+
+                        <h2>
+                            $2.50
+                        </h2>
+
+                        <input type="button" class="btn" value="Añadir al Carrito">
+
+                    </div>
+
+                </td>
+
+                <td>
+
+                    <div class="profile">
+
+                        <img src=" ../Img/coloreo7.jpg" />
+
+                        <h1>
+                            Libretas para dibujar Scribe
+                        </h1>
+
+                        <div class="bar">
+
+                            <span class="one"></span><span class="two"></span><span class="three"></span><span class="four"></span><span
+                                class="five"></span>
+
+                        </div>
+
+                        <h2>
+                            $4.00
+                        </h2>
+
+                        <input type="button" class="btn" value="Añadir al Carrito">
+
+                    </div>
+
+                </td>
+
+                <td>
+
+                    <div class="profile">
+
+                        <img src="  ../Img/coloreo8.jpg" />
+
+                        <h1>
+                            Pack Libreta de coloreo Forest
+                        </h1>
+
+                        <div class="bar">
+
+                            <span class="one"></span><span class="two"></span><span class="three"></span><span class="four"></span><span
+                                class="five"></span>
+
+                        </div>
+
+                        <h2>
+                            $3.50
+                        </h2>
+
+                        <input type="button" class="btn" value="Añadir al Carrito">
+
+                    </div>
+
+                </td>
 
             </tr>
             <tr>
@@ -829,107 +605,349 @@
             </tr>
             <tr>
 
-                    <td > 
+                <td>
 
-                        <div class="profile">
+                    <div class="profile">
 
-                            <img src="../Img/coloreo17.jpg" />
+                        <img src="  ../Img/coloreo9.jpg" />
 
-                            <h1>
-                                Tabla para dibujo A3
-                            </h1>
+                        <h1>
+                            Libreta de dibujo Norma
+                        </h1>
 
                         <div class="bar">
 
-                            <span class="one"></span><span class="two"></span><span class="three"></span><span class="four"></span><span class="five"></span>
-                    
+                            <span class="one"></span><span class="two"></span><span class="three"></span><span class="four"></span><span
+                                class="five"></span>
+
                         </div>
 
-                            <h2>
-                                $25.00
-                            </h2>
+                        <h2>
+                            $4.50
+                        </h2>
 
-                            <input type="button" class="btn" value="Añadir al Carrito">
-                                    
-                        </div>  
+                        <input type="button" class="btn" value="Añadir al Carrito">
 
-                    </td>
-                    <td > 
+                    </div>
 
-                        <div class="profile">
+                </td>
+                <td>
 
-                            <img src="../Img/coloreo18.jpg" />
+                    <div class="profile">
 
-                            <h1>
-                                Funda para Tabla de dibujo A3
-                            </h1>
+                        <img src="  ../Img/coloreo10.jpg" />
 
-                    <div class="bar">
+                        <h1>
+                            Pack Reglas para dibujo
+                        </h1>
 
-                            <span class="one"></span><span class="two"></span><span class="three"></span><span class="four"></span><span class="five"></span>
-                        
-                        </div>
-
-                            <h2>
-                                $7.00
-                            </h2>
-
-                            <input type="button" class="btn" value="Añadir al Carrito">
-                                        
-                        </div>  
-
-                    </td>
-                    <td > 
-
-                            <div class="profile">
-
-                                <img src="../Img/coloreo19.jpg" />
-
-                                <h1>
-                                    Tinta china Pelikan para Rapidografos
-                                </h1>
-
-                            <div class="bar">
-
-                                <span class="one"></span><span class="two"></span><span class="three"></span><span class="four"></span><span class="five"></span>
-                        
-                            </div>
-
-                                <h2>
-                                    $4.50
-                                </h2>
-
-                                <input type="button" class="btn" value="Añadir al Carrito">
-                                        
-                            </div>  
-
-                    </td>
-                    <td > 
-
-                            <div class="profile">
-    
-                                <img src="../Img/coloreo20.jpg" />
-    
-                                <h1>
-                                    Mega pack para dibujar
-                                </h1>
-    
                         <div class="bar">
-    
-                                <span class="one"></span><span class="two"></span><span class="three"></span><span class="four"></span><span class="five"></span>
-                            
-                            </div>
-    
-                                <h2>
-                                    $30.00
-                                </h2>
-    
-                                <input type="button" class="btn" value="Añadir al Carrito">
-                                            
-                            </div>  
-    
-                    </td>
-                    
+
+                            <span class="one"></span><span class="two"></span><span class="three"></span><span class="four"></span><span
+                                class="five"></span>
+
+                        </div>
+
+                        <h2>
+                            $6.25
+                        </h2>
+
+                        <input type="button" class="btn" value="Añadir al Carrito">
+
+                    </div>
+
+                </td>
+                <td>
+
+                    <div class="profile">
+
+                        <img src="  ../Img/coloreo11.jpg" />
+
+                        <h1>
+                            Pack Rapidografos
+                        </h1>
+
+                        <div class="bar">
+
+                            <span class="one"></span><span class="two"></span><span class="three"></span><span class="four"></span><span
+                                class="five"></span>
+
+                        </div>
+
+                        <h2>
+                            $22.50
+                        </h2>
+
+                        <input type="button" class="btn" value="Añadir al Carrito">
+
+                    </div>
+
+                </td>
+                <td>
+
+                    <div class="profile">
+
+                        <img src="   ../Img/coloreo12.jpg" />
+
+                        <h1>
+                            paleta de colores
+                        </h1>
+
+                        <div class="bar">
+
+                            <span class="one"></span><span class="two"></span><span class="three"></span><span class="four"></span><span
+                                class="five"></span>
+
+                        </div>
+
+                        <h2>
+                            $5.00
+                        </h2>
+
+                        <input type="button" class="btn" value="Añadir al Carrito">
+
+                    </div>
+
+                </td>
+
+
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <div id="divicion">
+                        <div class="circulo">
+                        </div>
+                        <div class="linea">
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+
+                <td>
+
+                    <div class="profile">
+
+                        <img src="../Img/coloreo13.jpg" />
+
+                        <h1>
+                            Regla T para dibujo
+                        </h1>
+
+                        <div class="bar">
+
+                            <span class="one"></span><span class="two"></span><span class="three"></span><span class="four"></span><span
+                                class="five"></span>
+
+                        </div>
+
+                        <h2>
+                            $3.25
+                        </h2>
+
+                        <input type="button" class="btn" value="Añadir al Carrito">
+
+                    </div>
+
+                </td>
+                <td>
+
+                    <div class="profile">
+
+                        <img src="../Img/coloreo14.jpg" />
+
+                        <h1>
+                            Pack Lapices Graduados
+                        </h1>
+
+                        <div class="bar">
+
+                            <span class="one"></span><span class="two"></span><span class="three"></span><span class="four"></span><span
+                                class="five"></span>
+
+                        </div>
+
+                        <h2>
+                            $5.00
+                        </h2>
+
+                        <input type="button" class="btn" value="Añadir al Carrito">
+
+                    </div>
+
+                </td>
+                <td>
+
+                    <div class="profile">
+
+                        <img src="../Img/coloreo15.jpg" />
+
+                        <h1>
+                            Caja de lapices graduados
+                        </h1>
+
+                        <div class="bar">
+
+                            <span class="one"></span><span class="two"></span><span class="three"></span><span class="four"></span><span
+                                class="five"></span>
+
+                        </div>
+
+                        <h2>
+                            $8.25
+                        </h2>
+
+                        <input type="button" class="btn" value="Añadir al Carrito">
+
+                    </div>
+
+                </td>
+                <td>
+
+                    <div class="profile">
+
+                        <img src=" ../Img/coloreo16.jpg" />
+
+                        <h1>
+                            Escuadras para dibujo
+                        </h1>
+
+                        <div class="bar">
+
+                            <span class="one"></span><span class="two"></span><span class="three"></span><span class="four"></span><span
+                                class="five"></span>
+
+                        </div>
+
+                        <h2>
+                            $20.00
+                        </h2>
+
+                        <input type="button" class="btn" value="Añadir al Carrito">
+
+                    </div>
+
+                </td>
+
+
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <div id="divicion2">
+                        <div class="linea2">
+                        </div>
+                        <div class="circulo2">
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+
+                <td>
+
+                    <div class="profile">
+
+                        <img src="../Img/coloreo17.jpg" />
+
+                        <h1>
+                            Tabla para dibujo A3
+                        </h1>
+
+                        <div class="bar">
+
+                            <span class="one"></span><span class="two"></span><span class="three"></span><span class="four"></span><span
+                                class="five"></span>
+
+                        </div>
+
+                        <h2>
+                            $25.00
+                        </h2>
+
+                        <input type="button" class="btn" value="Añadir al Carrito">
+
+                    </div>
+
+                </td>
+                <td>
+
+                    <div class="profile">
+
+                        <img src="../Img/coloreo18.jpg" />
+
+                        <h1>
+                            Funda para Tabla de dibujo A3
+                        </h1>
+
+                        <div class="bar">
+
+                            <span class="one"></span><span class="two"></span><span class="three"></span><span class="four"></span><span
+                                class="five"></span>
+
+                        </div>
+
+                        <h2>
+                            $7.00
+                        </h2>
+
+                        <input type="button" class="btn" value="Añadir al Carrito">
+
+                    </div>
+
+                </td>
+                <td>
+
+                    <div class="profile">
+
+                        <img src="../Img/coloreo19.jpg" />
+
+                        <h1>
+                            Tinta china Pelikan para Rapidografos
+                        </h1>
+
+                        <div class="bar">
+
+                            <span class="one"></span><span class="two"></span><span class="three"></span><span class="four"></span><span
+                                class="five"></span>
+
+                        </div>
+
+                        <h2>
+                            $4.50
+                        </h2>
+
+                        <input type="button" class="btn" value="Añadir al Carrito">
+
+                    </div>
+
+                </td>
+                <td>
+
+                    <div class="profile">
+
+                        <img src="../Img/coloreo20.jpg" />
+
+                        <h1>
+                            Mega pack para dibujar
+                        </h1>
+
+                        <div class="bar">
+
+                            <span class="one"></span><span class="two"></span><span class="three"></span><span class="four"></span><span
+                                class="five"></span>
+
+                        </div>
+
+                        <h2>
+                            $30.00
+                        </h2>
+
+                        <input type="button" class="btn" value="Añadir al Carrito">
+
+                    </div>
+
+                </td>
+
 
             </tr>
             <tr>

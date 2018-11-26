@@ -1,5 +1,4 @@
 <?php
-
 class conexionBD {
     public $conexion;
     private $server = "localhost";
@@ -19,15 +18,28 @@ class conexionBD {
     {
         if ($this->conexion ->connect_errno) {
         echo "<script type=\"text/javascript\">alert(\"No Se Puede Conectar a La Base de Datos\");</script>"; 
-        exit;
         }else{
         echo "<script type=\"text/javascript\">alert(\"Conexion a la base de datos con exito\");</script>"; 
         }
     }
 
-    public function salirDB(){
+    public function salirDB()
+    {
         $this->conexion->close();    
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 ?>

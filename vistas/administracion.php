@@ -40,16 +40,14 @@
 
         <!--contendor Global-->
         <div id="conten">
-    
-        <!--Logo de empresa-->
-        <div id="logo">
-                
 
+            <!--Logo de empresa-->
+            <div id="logo">
                 <img src="../Img/icons/logo.png" alt="" srcset="" width="30%" height="80%" id="logo1">
-                <h1 id="textp">Panel de Administracion</h1> 
+                <h1 id="textp">Panel de Administracion</h1>
             </div>
             <!--Menu horizontal de botones -->
-            <nav class="menu2" >
+            <nav class="menu2">
                 <div id="navegacion">
                     <nav id="colorNav2">
                         <ul id="ulu2">
@@ -79,273 +77,320 @@
 
 
             </nav>
-                <!--Seccion usuario logeado -->
+            <!--Seccion usuario logeado -->
 
-                <div id="user">
-                    <a href="../Vistas/Carrito.html">
-                    </a><a href="../Vistas/Carrito.html">
-                        <img id="imguser" src="../img/usuario.png">
-                    </a>
-                    <p id="nameuser"> Nombre <br> de <br> Usuario</p>
-                </div>
+            <div id="user">
+                <a href="../Vistas/Carrito.html">
+                </a><a href="../Vistas/Carrito.html">
+                    <img id="imguser" src="../img/usuario.png">
+                </a>
+                <p id="nameuser"> Nombre <br> de <br> Usuario</p>
+            </div>
         </div>
     </header>
 
 
 
     <div id="factura">
-            <aside id="marcas">
-          <div id="tbtnadmidn">
-              <p>Productos.</p>
-                <input type="button" value="" id="btnprod" onclick="mostrarfrm4()" >
+        <aside id="marcas">
+            <div id="tbtnadmidn">
+                <p>Productos.</p>
+                <input type="button" value="" id="btnprod" onclick="mostrarfrm4()">
                 <br>
                 <br>
                 <p>Provedores.</p>
-                <input type="button" value="" id="btnprod-1" onclick="mostrarfrm5()" >
+                <input type="button" value="" id="btnprod-1" onclick="mostrarfrm5()">
                 <br>
                 <br>
                 <p>Clientes.</p>
-                <input type="button" value="" id="btnprod-2" onclick="mostrarfrm6()" >
-          </div>
+                <input type="button" value="" id="btnprod-2" onclick="mostrarfrm6()">
+            </div>
 
-            </aside>
-                <section id="contfac" >
-                    <div id="facturat" >
-                            <div id="base" >   
-                                    <div id="navegacion4">
-                                            <nav id="colorNav">
-                                                <ul>
-                                                    <li >
-                                                    <input id="1" class="red" type="button" value="Colores" onclick="mostrarfrm1()" >
-                                                    </li>
-                                                    <li >
-                                                        <input id="2" class="blue" type="button" value="Marca" onclick="mostrarfrm2()"> 
-                                                    </li>
-                                                    <li >
-                                                        <input id="3" class="purple" type="button" value="Precentacion" onclick="mostrarfrm3()" > 
-                                                    </li>
-                                                </ul>
-                                            </nav>
-                                        </div>         
-                            </div>
-                            
-                            <div id="adminfrm1" >   
-
-                                
-                                            <form class="form_reg" action="guardar.php" method="POST">
-                                                    
-                                                    <input class="input" type="text" placeholder="
-                                                    Codigo de color" required autofocus>
-                                
-                                                    <input class="input" type="text" placeholder="
-                                                    Color" required autofocus>
-                                                    
-                                                    <div class="btn_form">
-                                                        <input class="btn_submit" type="submit" value="Eliminar">
-                                                        <input class="btn_submit" type="submit" value="Agregar">
-                                                    </div>
-                                                </form> 
-                                   
-                                                
-                    
-                           </div>
- 
-                                <div id="adminfrm2" >   
-                                    <form class="form_reg" action="guardar.php" method="POST">
-
-                                        <input class="input" type="text" placeholder="
-                                        Codigo de Marca" required autofocus>
-                    
-                                        <input class="input" type="text" placeholder="
-                                        Nombre de la Marca" required autofocus>
-                                        
-                                        <div class="btn_form">
-                                            <input class="btn_submit" type="submit" value="Eliminar">
-                                            <input class="btn_submit" type="submit" value="Agregar">
-                                        </div>
-                                    </form> 
-                                </div>
-
-                                <div id="adminfrm3" > 
-                                    <form class="form_reg" action="guardar.php" method="POST">
-
-                                        <input class="input" type="text" placeholder="
-                                        Codigo de Presentacion" required autofocus>
-                    
-                                        <input class="input" type="text" placeholder="
-                                        Presentacion" required autofocus>
-                                        <input class="input" type="text" placeholder="
-                                        Cantidad" required autofocus>
-
-                                        <div class="btn_form">
-                                            <input class="btn_submit" type="submit" value="Eliminar">
-                                            <input class="btn_submit" type="submit" value="Agregar">
-                                        </div>
-                                    </form> 
-                            
-                                </div>
-                                <div id="adminfrm4" > 
-                                        <!-- Divicion de estilo visual-->
-    <div id="divicion">
-            <div class="circulo">
-            </div>
-            <div class="linea">
-            </div>
-        </div>
-        <!--titulo-->
-        <section class="section1">
-            <h3>Ingresar Productos</h3>
-        </section>
-        <!-- Divicion contratia de estilo visual-->
-        <div id="divicion2">
-            <div class="linea2">
-            </div>
-            <div class="circulo2">
-            </div>
-        </div>
-                                        <div id="contenedor1" >   
-                                                <div id="contenedor4">
-                                                    <form class="form_reg" action="guardar.php" method="POST">
-                                    
-                                                        <input class="input" type="text" placeholder="
-                                                        Codigo" required autofocus>
-                                    
-                                                        <input class="input" type="text" placeholder="
-                                                        Color" required autofocus>
-                                       
-                                                        <input class="input" type="email" placeholder="
-                                                        Presentacion" required>
-                                       
-                                                        <input class="input" type="tel" placeholder="
-                                                        Nombre de Producto" required>
-                                       
-                                                        <input class="input" type="text" placeholder="
-                                                        Precio de Compra" required>
-                                       
-                                                        <input class="input" type="number" placeholder="
-                                                        Existencia" required>
-                                       
-                                                        <input class="input" type="password" placeholder="
-                                                        Sucursal" required >
-                                       
-                                                        <div class="btn_form">
-                                                            <input class="btn_submit" type="submit" value="Ingresar">
-                                                            <input class="btn_submit" type="submit" value="Cancelar">
-                                                        </div>
-                                                    </form> 
-                                                </div>
-                                            </div>
-                                    </div>
-
-                                    <div id="adminfrm5" > 
-                                          <!-- Divicion de estilo visual-->
-    <div id="divicion">
-            <div class="circulo">
-            </div>
-            <div class="linea">
-            </div>
-        </div>
-        <!--titulo-->
-        <section class="section1">
-            <h3>Ingresar Proveedor</h3>
-        </section>
-        <!-- Divicion contratia de estilo visual-->
-        <div id="divicion2">
-            <div class="linea2">
-            </div>
-            <div class="circulo2">
-            </div>
-        </div>
-                                            <div id="contenedor1" >   
-                                                    <div id="contenedor4">
-                                                        <form class="form_reg" action="guardar.php" method="POST">
-
-                                                            <input class="input" type="text" placeholder="
-                                                            Nombre del proveedor" required autofocus>
-                                        
-                                                            <input class="input" type="text" placeholder="
-                                                            Nombre del ejecutivo" required autofocus>
-                                           
-                                                            <input class="input" type="email" placeholder="
-                                                            NCR" required>
-                                           
-                                                            <input class="input" type="tel" placeholder="
-                                                            Direccion" required>
-                                           
-                                                            <input class="input" type="text" placeholder="
-                                                            Telefono" required>
-                                           
-                                                            <input class="input" type="number" placeholder="
-                                                            Celular" required>
-                                           
-                                                            <input class="input" type="password" placeholder="
-                                                            E-mail" required >
-                                           
-                                                            <div class="btn_form">
-                                                                <input class="btn_submit" type="submit" value="Agregar">
-                                                                <input class="btn_submit" type="submit" value="Cancelar">
-                                                            </div>
-                                                        </form> 
-                                                    </div>
-                                                </div>
-                                        </div>
-
-                                        <div id="adminfrm6" > 
-                                              <!-- Divicion de estilo visual-->
-    <div id="divicion">
-            <div class="circulo">
-            </div>
-            <div class="linea">
-            </div>
-        </div>
-        <!--titulo-->
-        <section class="section1">
-            <h3>Modificar Estatus de Clistes</h3>
-        </section>
-        <!-- Divicion contratia de estilo visual-->
-        <div id="divicion2">
-            <div class="linea2">
-            </div>
-            <div class="circulo2">
-            </div>
-        </div>
-                                                <div id="contenedor1" >   
-                                                        <div id="contenedor4">
-                                                            <form class="form_reg" action="guardar.php" method="POST">
-                                            
-                                                                <input class="input" type="text" placeholder="
-                                                                Codigo" required autofocus>
-                                            
-                                                                <input class="input" type="text" placeholder="
-                                                                Color" required autofocus>
-                                               
-                                                                <input class="input" type="email" placeholder="
-                                                                Presentacion" required>
-                                               
-                                                                <input class="input" type="tel" placeholder="
-                                                                Nombre de Producto" required>
-                                               
-                                                                <input class="input" type="text" placeholder="
-                                                                Precio de Compra" required>
-                                               
-                                                                <input class="input" type="number" placeholder="
-                                                                Existencia" required>
-                                               
-                                                                <input class="input" type="password" placeholder="
-                                                                Sucursal" required >
-                                               
-                                                                <div class="btn_form">
-                                                                    <input class="btn_submit" type="submit" value="Ingresar">
-                                                                    <input class="btn_submit" type="submit" value="Cancelar">
-                                                                </div>
-                                                            </form> 
-                                                        </div>
-                                                    </div>
-                                            </div>
+        </aside>
+        <section id="contfac">
+            <div id="facturat">
+                <div id="base">
+                    <div id="navegacion4">
+                        <nav id="colorNav">
+                            <ul>
+                                <li>
+                                    <input id="1" class="red" type="button" value="Colores" onclick="mostrarfrm1()">
+                                </li>
+                                <li>
+                                    <input id="2" class="blue" type="button" value="Marca" onclick="mostrarfrm2()">
+                                </li>
+                                <li>
+                                    <input id="3" class="purple" type="button" value="Precentacion" onclick="mostrarfrm3()">
+                                </li>
+                            </ul>
+                        </nav>
                     </div>
+                </div>
 
+                <div id="adminfrm1">
+
+
+                    <form id="crud1" name="crud_colores" class="form_reg" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+
+                        <input name="id_Colores" class="input" type="text" placeholder="
+                                                    Codigo de color">
+
+                        <input name="ColoresDB" class="input" type="text" placeholder="
+                                                    Color"
+                            required autofocus>
+
+                        <div class="btn_form">
+                            <input class="btn_submit" type="reset" value="Eliminar">
+                            <input id="btnColores" name="btnColores" class="btn_submit" type="submit" value="Agregar">
+                        </div>
+
+                        <br>
+                        <a href="verColore.php"><input id="btnC" name="btnColores" class="btn_submit" type="button"
+                                value="Ver Colores"></a>
+                    </form>
+
+                </div>
+
+                <div id="adminfrm2">
+                    <form class="form_reg" action="guardar.php" method="POST">
+
+                        <input class="input" type="text" placeholder="Codigo de Marca" required autofocus>
+
+                        <input class="input" type="text" placeholder="Nombre de la Marca" required autofocus>
+
+                        <div class="btn_form">
+                            <input class="btn_submit" type="submit" value="Eliminar">
+                            <input class="btn_submit" type="submit" value="Agregar">
+                        </div>
+                        <br>
+                        <a href="verColore.php"><input id="btnC" name="btnColores" class="btn_submit" type="button"
+                                value="Ver Colores"></a>
+                    </form>
+                </div>
+
+                <div id="adminfrm3">
+                    <form class="form_reg" action="guardar.php" method="POST">
+
+                        <input class="input" type="text" placeholder="Codigo de Presentacion" required autofocus>
+
+                        <input class="input" type="text" placeholder="Presentacion" required autofocus>
+                        <input class="input" type="text" placeholder="Cantidad" required autofocus>
+
+                        <div class="btn_form">
+                            <input class="btn_submit" type="submit" value="Eliminar">
+                            <input class="btn_submit" type="submit" value="Agregar">
+                        </div>
+
+                        <a href="verColore.php"><input id="btnC" name="btnColores" class="btn_submit" type="button"
+                                value="Ver Colores"></a>
+
+                </div>
+                <div id="adminfrm4">
+                    <!-- Divicion de estilo visual-->
+                    <div id="divicion">
+                        <div class="circulo">
+                        </div>
+                        <div class="linea">
+                        </div>
+                    </div>
+                    <!--titulo-->
+                    <section class="section1">
+                        <h3>Ingresar Productos</h3>
                     </section>
+                    <!-- Divicion contratia de estilo visual-->
+                    <div id="divicion2">
+                        <div class="linea2">
+                        </div>
+                        <div class="circulo2">
+                        </div>
+                    </div>
+                    <div id="contenedor1">
+                        <div id="contenedor4">
+                            <form class="form_reg" action="guardar.php" method="POST">
+
+                                <input class="input" type="text" placeholder="
+                                                        Codigo"
+                                    required autofocus>
+
+                                <input class="input" type="text" placeholder="
+                                                        Color"
+                                    required autofocus>
+
+                                <input class="input" type="email" placeholder="
+                                                        Presentacion"
+                                    required>
+
+                                <input class="input" type="tel" placeholder="
+                                                        Nombre de Producto"
+                                    required>
+
+                                <input class="input" type="text" placeholder="
+                                                        Precio de Compra"
+                                    required>
+
+                                <input class="input" type="number" placeholder="
+                                                        Existencia"
+                                    required>
+
+                                <input class="input" type="password" placeholder="
+                                                        Sucursal"
+                                    required>
+
+                                <div class="btn_form">
+                                    <input class="btn_submit" type="submit" value="Ingresar">
+                                    <input class="btn_submit" type="submit" value="Cancelar">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="adminfrm5">
+                    <!-- Divicion de estilo visual-->
+                    <div id="divicion">
+                        <div class="circulo">
+                        </div>
+                        <div class="linea">
+                        </div>
+                    </div>
+                    <!--titulo-->
+                    <section class="section1">
+                        <h3>Ingresar Proveedor</h3>
+                    </section>
+                    <!-- Divicion contratia de estilo visual-->
+                    <div id="divicion2">
+                        <div class="linea2">
+                        </div>
+                        <div class="circulo2">
+                        </div>
+                    </div>
+                    <div id="contenedor1">
+                        <div id="contenedor4">
+                            <form class="form_reg" action="guardar.php" method="POST">
+
+                                <input class="input" type="text" placeholder="
+                                                            Nombre del proveedor"
+                                    required autofocus>
+
+                                <input class="input" type="text" placeholder="
+                                                            Nombre del ejecutivo"
+                                    required autofocus>
+
+                                <input class="input" type="email" placeholder="
+                                                            NCR"
+                                    required>
+
+                                <input class="input" type="tel" placeholder="
+                                                            Direccion"
+                                    required>
+
+                                <input class="input" type="text" placeholder="
+                                                            Telefono"
+                                    required>
+
+                                <input class="input" type="number" placeholder="
+                                                            Celular"
+                                    required>
+
+                                <input class="input" type="password" placeholder="
+                                                            E-mail"
+                                    required>
+
+                                <div class="btn_form">
+                                    <input class="btn_submit" type="submit" value="Agregar">
+                                    <input class="btn_submit" type="submit" value="Cancelar">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="adminfrm6">
+                    <!-- Divicion de estilo visual-->
+                    <div id="divicion">
+                        <div class="circulo">
+                        </div>
+                        <div class="linea">
+                        </div>
+                    </div>
+                    <!--titulo-->
+                    <section class="section1">
+                        <h3>Modificar Estatus de Clistes</h3>
+                    </section>
+                    <!-- Divicion contratia de estilo visual-->
+                    <div id="divicion2">
+                        <div class="linea2">
+                        </div>
+                        <div class="circulo2">
+                        </div>
+                    </div>
+                    <div id="contenedor1">
+                        <div id="contenedor4">
+                            <form class="form_reg" action="guardar.php" method="POST">
+
+                                <input class="input" type="text" placeholder="
+                                                                Codigo"
+                                    required autofocus>
+
+                                <input class="input" type="text" placeholder="
+                                                                Color"
+                                    required autofocus>
+
+                                <input class="input" type="email" placeholder="
+                                                                Presentacion"
+                                    required>
+
+                                <input class="input" type="tel" placeholder="
+                                                                Nombre de Producto"
+                                    required>
+
+                                <input class="input" type="text" placeholder="
+                                                                Precio de Compra"
+                                    required>
+
+                                <input class="input" type="number" placeholder="
+                                                                Existencia"
+                                    required>
+
+                                <input class="input" type="password" placeholder="
+                                                                Sucursal"
+                                    required>
+
+                                <div class="btn_form">
+                                    <input class="btn_submit" type="submit" value="Ingresar">
+                                    <input class="btn_submit" type="submit" value="Cancelar">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
     </div>
 
 </body>
+
 </html>
+<?
+require_once("../Scritp PHP/Colores.php");
+$conectarDB = new Crud_Colores();
+
+if (isset($_REQUEST['btnColores']))
+{ 
+    if (empty($_REQUEST['ColoresDB'])){//valida que en los formularios se haya escrito algo
+		echo "<script type=\"text/javascript\">alert(\"porfavor complete los campos faltantes\");</script>"; 
+        } else{
+
+        $result=$conectarDB->InsertarColor($_REQUEST['ColoresDB']);
+    if ($result) {
+        echo "<script type=\"text/javascript\">alert(\"los Datos an sido Guardados\");</script>"; 
+        
+    }else {
+        echo "<script type=\"text/javascript\">alert(\"Ha Ocurrido un error\");</script>"; 
+    } 
+}
+
+}
+
+?>

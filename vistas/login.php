@@ -16,8 +16,10 @@
     <!-- Hojas de estilo -->
     <link rel="stylesheet" type="text/css" href="../CSS/menu2.css"><!-- Hoja de menu de categorias-->
     <link rel="stylesheet" type="text/css" href="../CSS/index2.css"><!-- Hoja simi global-->
-    <link rel="stylesheet" type="text/css" href="../CSS/css-foot.css"> <!--Fotter-->
-    <link rel="stylesheet" type="text/css" href="../CSS/table2.css"> <!--Tabla de productos-->
+    <link rel="stylesheet" type="text/css" href="../CSS/css-foot.css">
+    <!--Fotter-->
+    <link rel="stylesheet" type="text/css" href="../CSS/table2.css">
+    <!--Tabla de productos-->
     <link rel="stylesheet" href="../CSS/divicion.css">
 
     <!--slideshow automatico -->
@@ -63,7 +65,7 @@
                                     <tbody>
                                         <tr>
                                             <td>
-                                                <a href="../vistas/Cuadernos_Libretas.html">
+                                                <a href="cuadernos_libretas.php">
                                                     Cuadernos y libretas
                                                 </a>
                                             </td>
@@ -75,7 +77,7 @@
                                         </tr>
                                         <tr>
                                             <td>
-                                                <a href="../vistas/lapices_boligrafos.html">
+                                                <a href="lapices_boligrafos.php">
                                                     lapices y Boligrafos
                                                 </a>
                                             </td>
@@ -87,7 +89,7 @@
                                         </tr>
                                         <tr>
                                             <td>
-                                                <a href="#">
+                                                <a href="extras1.php">
                                                     Extras
                                                 </a>
                                             </td>
@@ -109,7 +111,7 @@
                                     <tbody>
                                         <tr>
                                             <td>
-                                                <a href="../vistas/Papeleria.html">
+                                                <a href="papeleria.php">
                                                     Papeleria
                                                 </a>
                                             </td>
@@ -121,7 +123,7 @@
                                         </tr>
                                         <tr>
                                             <td>
-                                                <a href="../vistas/foamy.html"> Foamy</a>
+                                                <a href="foamy.php"> Foamy</a>
 
                                             </td>
                                         </tr>
@@ -133,8 +135,7 @@
                                         </tr>
                                         <tr>
                                             <td>
-                                                <a href="../vistas/materialDecorativo.html">Material Decorativo</a>
-
+                                                <a href="materialDecorativo.php">Material Decorativo</a>
                                             </td>
                                         </tr>
 
@@ -146,7 +147,7 @@
                                         </tr>
                                         <tr>
                                             <td>
-                                                <a href="../vistas/Coloreo.html">Coloreo</a>
+                                                <a href="coloreo.php">Coloreo</a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -156,7 +157,7 @@
                                         </tr>
                                         <tr>
                                             <td>
-                                                <a href="../vistas/Pegamentos.html">Pegamentos y Adecivos</a>
+                                                <a href="pegamento.php">Pegamentos y Adecivos</a>
                                             </td>
 
                                         </tr>
@@ -168,7 +169,7 @@
                                         </tr>
                                         <tr>
                                             <td>
-                                                <a href="../vistas/extras2.html"> Extras</a>
+                                                <a href="extras2.php"> Extras</a>
 
                                             </td>
                                         </tr>
@@ -188,7 +189,7 @@
                                     <tbody>
                                         <tr>
                                             <td>
-                                                <a href="../vistas/librosTexto.html">
+                                                <a href="librosTexto.php">
                                                     Libros de Texto
                                                 </a>
                                             </td>
@@ -200,7 +201,7 @@
                                         </tr>
                                         <tr>
                                             <td>
-                                                <a href="../vistas/Obras.html"> Obras literias</a>
+                                                <a href="obras.php"> Obras literias</a>
 
                                             </td>
                                         </tr>
@@ -211,70 +212,71 @@
                         </section>
 
                         <!--        <input type="radio" name="accordion" id="cb4">
-                            <section class="box">
-                                <label class="box-title" for="cb4">Item 3</label>
-                                <label class="box-close" for="acc-close"></label>
-                                <div class="box-content">
-    
-                                    <table>
-                                        <tbody>
-                                            <tr>
-                                                <td>
-                                                    <a href="#">
-                                                        Cuadernos
-                                                    </a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <div id="sep"></div>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    Libretas
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-    
-                                </div>
-                            </section>
-    
-                            <input type="radio" name="accordion" id="cb5">
-                            <section class="box">
-                                <label class="box-title" for="cb5">Item 3</label>
-                                <label class="box-close" for="acc-close"></label>
-                                <div class="box-content">
-    
-                                    <table>
-                                        <tbody>
-                                            <tr>
-                                                <td>
-                                                    <a href="#">
-                                                        Cuadernos
-                                                    </a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <div style=" width: 100% ; height: 1px ;background:rgb(128, 133, 138)"></div>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    Libretas
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-    
-                                </div>
-                            </section> -->
+                        <section class="box">
+                            <label class="box-title" for="cb4">Item 3</label>
+                            <label class="box-close" for="acc-close"></label>
+                            <div class="box-content">
+
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <a href="#">
+                                                    Cuadernos
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div id="sep"></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                Libretas
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                            </div>
+                        </section>
+
+                        <input type="radio" name="accordion" id="cb5">
+                        <section class="box">
+                            <label class="box-title" for="cb5">Item 3</label>
+                            <label class="box-close" for="acc-close"></label>
+                            <div class="box-content">
+
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <a href="#">
+                                                    Cuadernos
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div style=" width: 100% ; height: 1px ;background:rgb(128, 133, 138)"></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                Libretas
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                            </div>
+                        </section> -->
                         <input type="radio" name="accordion" id="acc-close">
                     </div>
                 </div>
             </nav>
+
             <!--Contenerdor de estilo visual con froma de triangulo y Buscador-->
             <div class="aParent">
 
@@ -291,52 +293,50 @@
 
             <!--Menu horizontal de botones -->
             <nav class="menu2">
-                <div id="navegacion2">
-                    <nav id="colorNav">
-                        <ul id="ulu">
-                            <li class="red">
-                                <a href="../vistas/Infromacion.html">
+                <div id="navegacion">
+                    <nav id="colorNav2">
+                        <ul id="ulu2">
+                            <li class="gren2">
+                                <a href="../index.php">
+                                    <p>Inicio</p>
+                                </a>
+                                <ul>
+                                </ul>
+                            </li>
+                            <li class="red2">
+                                <a href="infromacion.php">
                                     <p for="btn2"> Información</p>
                                 </a>
                                 <ul>
                                 </ul>
                             </li>
-                            <li class="purple">
+                            <li class="purple2">
                                 <p href="#">Sesión</p>
                                 <ul>
-                                    <li><a href="../vistas/Login.html">Iniciar Sesión</a></li>
-                                    <li><a href="../vistas/Registrar.html">Registrate</a></li>
+                                    <li><a href="login.php">Iniciar Sesión</a></li>
+                                    <li><a href="registrarse.php">Registrate</a></li>
                                 </ul>
                             </li>
                         </ul>
                     </nav>
                 </div>
                 <!--Carrito de Compras-->
-                <a href="../vistas/Carrito.html">
-                    <div id="carrito"><a href="../vistas/Carrito.html">
-                        </a><a href="../vistas/Carrito.html">
-                            <img src="../Img/carrito2.png">
-                        </a>
-                        <p>Carrito <br> $00.00</p>
-                    </div>
-                </a>
-                <!--Seccion usuario logeado -->
-
-                <div id="user">
-                    <a href="#">
-                    </a><a href="#">
-                        <img id="imguser" src="../img/usuario.png">
+                <div id="carrito2">
+                    <a href="carrito.php">
+                    </a><a href="carrito.php">
+                        <img id="car" src=" ../Img/carrito4.png">
                     </a>
-                    <p id="nameuser"> Nombre <br> de <br> Usuario</p>
+                    <p id="total">Carrito <br> $00.00</p>
                 </div>
+
 
             </nav>
             <!--Seccion usuario logeado -->
 
             <div id="user">
-                <a href="../Vistas/Carrito.html">
-                </a><a href="../Vistas/Carrito.html">
-                    <img id="imguser" src="../img/usuario.png">
+                <a href="../vistas/Carrito.html">
+                </a><a href="../vistas/Carrito.html">
+                    <img id="imguser" src=" ../Img/usuario.png">
                 </a>
                 <p id="nameuser"> Nombre <br> de <br> Usuario</p>
             </div>

@@ -1,3 +1,4 @@
+
 #contenedor1 {
 	height: 500px;
 
@@ -126,4 +127,13 @@ h2 span {
 
 .registro {
 	height: 820px;
+}
+
+#btnC{
+	background-color: #27697F;
+	width: 115px;
+}
+
+#btnC:hover{
+	background-color: #005F7F;
 }

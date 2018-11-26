@@ -139,10 +139,51 @@ body {
     text-align: center;
 }
 
+#carrito5 {
+    /*
+        position: absolute;
+    top: 0px;
+    left: 944px;
+    width: 140px;
+    height: 70px;
+    font-family: Comic Sans MS, arial, verdana;
+    font-size: 20px;
+    background-color: rgb(255, 114, 33);
+    border-radius: 0px 0px 5px 5px;
+    text-align: center;*/
+    position: absolute;
+    top: 0px;
+    left: 1100px;
+    width: 200px;
+    height: 70px;
+    font-family: Comic Sans MS, arial, verdana;
+    font-size: 20px;
+    background-color: rgb(255, 114, 33);
+    border-radius: 0px 0px 5px 5px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+
+
+#carrito5  #car {
+    position: relative;
+    top: 7px;
+    left: 3%;
+      width: auto;
+    height: auto;
+}
+
+#carrito5  #total {
+    position: relative;
+    top: 30%;
+    left: 0%;
+}
 
 #carrito2 #car {
     position: relative;
-    top: 10%;
+    top: 20%;
     left: 3%;
     max-width: 100%;
     width: auto;
@@ -151,7 +192,7 @@ body {
 
 #carrito2 #total {
     position: relative;
-    top: 0%;
+    top: 15%;
     left: 10%;
 }
 

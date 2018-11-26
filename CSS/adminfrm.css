@@ -16,14 +16,14 @@
     border-top: 0;
     bottom: 10px;
     /* igual al borde + el padding-bottom de la definición anterior */
-    left: -85px;
+    left: -145px;
     content: "";
     display: block;
     height: 0;
     margin: auto;
     overflow: hidden;
     position: relative;
-    top: -49%;
+    top: -68.8%;
     width: 0;
 }
 
@@ -45,14 +45,14 @@
     border-top: 0;
     bottom: 10px;
     /* igual al borde + el padding-bottom de la definición anterior */
-    left: 95px;
+    left: 65px;
     content: "";
     display: block;
     height: 0;
     margin: auto;
     overflow: hidden;
     position: relative;
-    top: -49%;
+    top: -68.8%;
     width: 0;
 }
 
@@ -73,7 +73,7 @@
     border-top: 0;
     bottom: 10px;
     /* igual al borde + el padding-bottom de la definición anterior */
-    left: 290px;
+    left: 270px;
     content: "";
     display: block;
     height: 0;
@@ -81,7 +81,7 @@
     overflow: hidden;
     position: relative;
     width: 0;
-    top: -63%;
+    top: -76.5%;
 }
 
 #base {
